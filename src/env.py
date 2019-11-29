@@ -2,12 +2,14 @@
 # 
 from agent import Agent
 from action import Action
+from rule import Rule
 class Env():
     def __init__(self, 
-                actions: Iterable[Action]):
-        super().__init__()
+                actions: Iterable[Action],
+                rules: Iterable[Rule]):
         self.actions = actions
         self.agent = Agent(actions)
+        self.rules = rules
 
     def step(self):
         r = 0

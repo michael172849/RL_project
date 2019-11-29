@@ -26,7 +26,7 @@ class Action():
         self.isOn = False
         self.onTime = 0
     
-    def isReady(self, state:State):
+    def isReady(self, state):
         if self.isOn and state['time'] - self.onTime > self.time_cost:
             return True
         else:
