@@ -4,8 +4,9 @@ class Agent():
         actions : list):
         self.actions = actions      #List of actions
 
-    def decide(self, state):
-        return []
+
+    def getAction(self, state):
+        return actions[0].startAction, 0
     
-    def learn(self, reward):
+    def update(self, reward, action, state):
         pass

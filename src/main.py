@@ -15,6 +15,9 @@ def main():
         0.2
     ))
     environ = Env(actions, rules)
+
+    for i in range(100):
+        environ.step()
     
 if __name__ == "main":
     main()

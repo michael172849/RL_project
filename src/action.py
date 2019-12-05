@@ -11,7 +11,7 @@ class Action():
         self.time_cost = time_cost
         self.step_time = step_time      # the step time in seconds
 
-    def step(self, time):
+    def stepReward(self, time):
         if not self.isOn:
             return 0.
         delta = time - self.onTime
@@ -31,3 +31,6 @@ class Action():
             return True
         else:
             return False
+
+    def isOn(self):
+        return self.isOn

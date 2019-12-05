@@ -8,7 +8,7 @@ class Rule(object):
         
     def check(
             self, 
-            s:State,):
+            s,):
         pass
 
     def reset(self):
