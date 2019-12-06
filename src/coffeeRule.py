@@ -2,8 +2,8 @@ from rule import Rule
 class CoffeeRule(Rule):
     def __init__(self, reward, decay, targetAction, timeLimit = 900, maxWaitTime = 900):
         super().__init__(reward, decay)
-        self.sequence = [{'loc':'home', 'act':'wakeup'},
-                    {'loc':'home', 'act':'breakfast'}]
+        self.sequence = [{'loc':'home-bedroom', 'act':'wakeup'},
+                    {'loc':'home-kitchen', 'act':'breakfast'}]
         self.timeLimit = timeLimit          #max time difference between sequence in seconds
         self.targetAction = targetAction
         self.maxWaitTime = maxWaitTime
