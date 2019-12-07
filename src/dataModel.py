@@ -201,7 +201,7 @@ class DataModel():
             dinner_state = State("Dinner", "Restaurant", 2*60*60)
             deskwork_state = State("Deskwork", "home_study", 1*60*60)
             bath_state = State("Bath", "home_bathroom", 1*60*60)
-            going_to_bed_state = State("Going to bed", "home_bed", 10*60*60)
+            going_to_bed_state = State("Going to bed", "home_bed", 20*60*60)
 
             # Define transitions
             sleep_state.add_next_state(wake_up_state, 0.1, 7)
