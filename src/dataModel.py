@@ -228,7 +228,7 @@ class DataModel():
             deskwork_state.add_next_state(bath_state, 100, 3)
             socializing_home_state.add_next_state(bath_state, 100, 4)
 
-            bath_state.add_next_state(sleep_state, 100, 4)
+            bath_state.add_next_state(going_to_bed_state, 100, 4)
 
              # Initialize start and end states
             self.start_state = sleep_state
