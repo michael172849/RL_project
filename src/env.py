@@ -36,15 +36,19 @@ class Env():
         s, done = self.model.step()
         return s, r, done
 
-    def run(self, episodes):
-        for i in range(episodes):
-            if self.state is None or self.done:
-                self.reset()
-            a = self.agent.getAction(self.state)
-            s_p, r, self.done = self.step(a)
-            self.agent.update(r,a,self.state)
-            self.state = s_p
-            if r > 0:
-                print(i, r)
+    def run(self, days):
+        for i in range(days):
+            flag = False
+            self.reset()
+            while not self.done:
+                if self.state['act_truth'] == "Wake up" and flag == False:
+                    flag = True
+                    print (i, self.state)
+                a = self.agent.getAction(self.state)
+                s_p, r, self.done = self.step(a)
+                self.agent.update(r,a,self.state)
+                self.state = s_p
+                # if r > 0:
+                    # print(i, self.state['time'], r)
         
     

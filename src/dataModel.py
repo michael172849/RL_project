@@ -245,7 +245,7 @@ class DataModel():
     def findStateByActivity(self, activity):
         return [x for x in self.s if x == State(activity)]
 
-    def step(self, seconds=60):
+    def step(self, seconds=10):
         """
         seconds: how many seconds is it going forward
         returns: {(time of the day(in seconds), location(label), activity(ground truth))}, done
