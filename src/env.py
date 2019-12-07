@@ -39,12 +39,13 @@ class Env():
 
     def run(self, days):
         for i in range(days):
-            flag = False
+            prev = "test"
             self.reset()
+            print("===============================================================")
             while not self.done:
-                if self.state['act_truth'] == "Breakfast" and flag == False:
-                    flag = True
+                if self.state['act_truth'] != prev:
                     print (i, self.state)
+                    prev = self.state['act_truth']
                 a = self.agent.getAction(self.state)
                 s_p, r, self.done = self.step(a)
                 self.agent.update(r,a,self.state)
