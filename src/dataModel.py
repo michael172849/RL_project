@@ -147,7 +147,7 @@ class DataModel():
     Assumptions: User can just do one activity in one context
 
     """
-    def __init__(self, pre_defined, seed=2):
+    def __init__(self, pre_defined, seed=42):
         """
         pre_defined: load pre-defined models rather than automatically processing the dataset
         """
@@ -159,6 +159,7 @@ class DataModel():
         self.end_state = None 
         self.observation_space = ObservationSpace(0, 86399)
         self.role = pre_defined
+        self.loc_set = []
         if pre_defined == "test_homeless":
             # Define all the states
             sleep_state = State("Sleeping", "home_bed", 4*60*60)
@@ -230,6 +231,15 @@ class DataModel():
 
             bath_state.add_next_state(going_to_bed_state, 100, 4)
 
+            # add to state list
+            self.s = [sleep_state, wake_up_state, home_bathroom_state,
+                    breakfast_state, morning_work_state, evening_work_state,
+                    lunch_outside_state, lunch_home_state, socializing_home_state,
+                    socializing_outside_state,dinner_state, deskwork_state, 
+                    bath_state, going_to_bed_state, housework_livingroom_state]
+            self.loc_set = list(set([state.location for state in self.s]))
+            self.loc_set.append('Street')
+
              # Initialize start and end states
             self.start_state = sleep_state
             self.end_state = sleep_state 
@@ -275,13 +285,16 @@ class DataModel():
                 "act_truth":self.cur.get_activity(),}, False
 
     def get_num_locations(self):
-        location_list = []
-        for s in self.s:
-            if s.location not in location_list:
-                location_list += s.location
-
-        return len(location_list) + 1   # +1 because we include street @TODO change this later
+        return len(self.loc_set)  # @TODO change this later
     
+    def get_cont_low_high(self):
+        return [self.observation_space.low], [self.observation_space.high]
+
+    def get_cont_cate(self, state):
+        cont = np.array([state['time']])
+        cate = np.array([self.loc_set.index(state['loc_cate'])])
+        return cont, cate
+
     def add_data(self, data):
         s = State(data.activity, data.location, data.duration)
         

@@ -46,11 +46,11 @@ class Env():
                 # if self.state['act_truth'] != prev:
                 #     print (i, self.state)
                 #     prev = self.state['act_truth']
-                a = self.agent.getAction(self.state)
+                cont, cate = self.model.get_cont_cate(self.state)
+                a = self.agent.getAction(cont, cate)
                 s_p, r, self.done = self.step(a)
-                self.agent.update(r,a,self.state)
+                self.agent.update(cont, cate, r,a)
                 self.state = s_p
-                if r > 0:
-                    print(i, self.state['time'], r)
+            self.agent.finishEpisode()
         
     
