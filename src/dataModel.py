@@ -36,7 +36,7 @@ class State():
     self.activity: user's current activity. "start" to indicate the start of the day. Is unique in the datamodel
     self.duration: if mean for duration is 0, it is an "event" where the activity that takes no time, like waking up
     """
-    def __init__(self, activity, location="", duration=10*60):
+    def __init__(self, activity, location="", duration=10*60, duration_sigma=60*30):
         self.transitions = []
         self.transition_weights = np.array([])
         # self.next_activities = []    # dictionary of possible next activity and their occurrences
@@ -44,7 +44,7 @@ class State():
         # self.next_activities_transition = []
         self.activity = activity
         self.location = location
-        self.duration = Duration(duration)
+        self.duration = Duration(duration, duration_sigma)
         self.duration_seconds = self.duration.sample()
 
     def get_duration_seconds(self):
@@ -63,7 +63,7 @@ class State():
         """
         return np.random.choice(self.transitions, p=self.transition_weights/sum(self.transition_weights))
 
-    def add_next_state(self, state, duration_mean, weight):
+    def add_next_state(self, state, duration_mean, weight, duration_sigma=10*60):
         self.transitions.append(Transition(self, state, Duration(duration_mean)))
         self.transition_weights = np.append(self.transition_weights, weight)
 
@@ -147,10 +147,12 @@ class DataModel():
     Assumptions: User can just do one activity in one context
 
     """
-    def __init__(self, pre_defined):
+    def __init__(self, pre_defined, seed=2):
         """
         pre_defined: load pre-defined models rather than automatically processing the dataset
         """
+        # np.random.seed(seed)
+
         self.s = []   # states
         self.cur_time = 0    # current time in seconds (ranges 0 ~ 43199)
         self.start_state = None
@@ -181,9 +183,9 @@ class DataModel():
         if pre_defined == "coffee_guy":
             # Define all the states
             sleep_state = State("Sleeping", "home_bed", 2*60*60)
-            wake_up_state = State("Wake up", "home_bedroom", 5*60)
-            home_bathroom_state = State("PersonalGrooming", "home_bathroom", 7*60)
-            breakfast_state = State("Breakfast", "home_kitchen", 30*60)
+            wake_up_state = State("Wake up", "home_bedroom", 5*60, 10)
+            home_bathroom_state = State("PersonalGrooming", "home_bathroom", 7*60, 60)
+            breakfast_state = State("Breakfast", "home_kitchen", 30*60, 10*60)
 
             morning_work_state = State("MorningWork", "Office/Workplace", 3*60*60)
             evening_work_state = State("EveningWork", "Office/Workplace", 5*60*60)
@@ -193,7 +195,7 @@ class DataModel():
 
             housework_livingroom_state = State("Housework", "home_livingroom", 2*60*60)
 
-            socializing_home_state = State("Socializing", "home_study", 30*60)
+            socializing_home_state = State("Socializing", "home_study", 30*60, 10*60)
             socializing_outside_state = State("Socializing", "Building", 4*60*60)
             
             dinner_state = State("Dinner", "Restaurant", 2*60*60)
@@ -237,10 +239,10 @@ class DataModel():
         # initialze time
         self.remaining_duration = self.start_state.get_duration_seconds()
 
-    def reset(self, p=None):
+    def reset(self, p=None, seed=2):
         if p is None:
             p = self.role
-        self.__init__(p)
+        self.__init__(p, seed=2)
 
     def findStateByActivity(self, activity):
         return [x for x in self.s if x == State(activity)]
@@ -254,7 +256,7 @@ class DataModel():
         if self.cur_time > 86399:
             return {"time":np.ceil(self.cur_time), 
                     "loc_cate":self.cur.get_location(self.remaining_duration),
-                    "truth":self.cur.get_activity(),}, True
+                    "act_truth":self.cur.get_activity(),}, True
 
         while self.remaining_duration < seconds:    # if there are remaining time for current state / transition
             seconds -= self.remaining_duration
