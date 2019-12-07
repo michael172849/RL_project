@@ -156,7 +156,7 @@ class DataModel():
         self.start_state = None
         self.end_state = None 
         self.observation_space = ObservationSpace(0, 86399)
-
+        self.role = pre_defined
         if pre_defined == "test_homeless":
             # Define all the states
             sleep_state = State("Sleeping", "home_bed", 4*60*60)
@@ -237,7 +237,7 @@ class DataModel():
         # initialze time
         self.remaining_duration = self.start_state.get_duration_seconds()
 
-    def init(self, p):
+    def reset(self, p=self.role):
         self.__init__(p)
 
     def findStateByActivity(self, activity):
@@ -246,14 +246,14 @@ class DataModel():
     def step(self, seconds=60):
         """
         seconds: how many seconds is it going forward
-        returns: (time of the day(in seconds), location(label), activity(ground truth))
+        returns: {(time of the day(in seconds), location(label), activity(ground truth))}, done
         """
         self.cur_time += seconds
         if self.cur_time > 86399:
             return {"time":np.ceil(self.cur_time), 
                     "loc_cate":self.cur.get_location(self.remaining_duration),
                     "truth":self.cur.get_activity(),}, True
-                    
+
         while self.remaining_duration < seconds:    # if there are remaining time for current state / transition
             seconds -= self.remaining_duration
             if isinstance(self.cur, State):    # if the user was previously in state
