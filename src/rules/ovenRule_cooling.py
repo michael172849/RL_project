@@ -1,5 +1,5 @@
 from rules.rule import Rule
-class OvenRule(Rule):
+class OvenRuleWithCooling(Rule):
     def __init__(self, reward, decay, targetAction, timeLimit = 900, maxWaitTime = 600):
         super().__init__(reward, decay)
         self.sequence = [{'loc_cate':'home_bedroom', 'act_truth':'Wake up'},

@@ -2,7 +2,7 @@
 # 
 from typing import Iterable
 from agents.agent import Agent
-from action import Action
+from deviceAction.action import Action
 from rules.rule import Rule
 from model import Model
 class Env():
@@ -42,7 +42,7 @@ class Env():
             prev = "test"
             self.reset()
             r_s = 0
-            print("=============================================================================")
+            print("======Day {}====================================================================".format(i))
             while not self.done:
                 # if self.state['act_truth'] != prev:
                 #     print (i, self.state)
@@ -53,7 +53,7 @@ class Env():
                 r_s += r
                 self.agent.update(state, r,a)
                 self.state = s_p
-            print (i, r_s)
+            print ("Return:{}!!!".format(r_s))
             self.agent.finishEpisode(self.model.get_cont_cate(self.state))
         
     
