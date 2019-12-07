@@ -24,14 +24,17 @@ def main():
     nL = [model.get_num_locations()]
     nA = len(actions) * 2
     low, high = model.get_cont_low_high()
-    q_f = QFuncMixed(low, high, nL, nA, 10, np.array([60]))
+    q_f = QFuncMixed(low, high, nL, nA, 10, np.array([1200]))
     agent = nSarsaAgent(
         actions,
-        q_f
+        q_f,
+        20,
+        1.0,
+        0.01,
     )
 
     environ = Env(actions, rules, agent, model)
-    environ.run(10)
+    environ.run(100)
     
 if __name__ == "__main__":
     main()

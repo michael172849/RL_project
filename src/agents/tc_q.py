@@ -61,10 +61,11 @@ class QFuncMixed():
             feat_v[self.idx(i, s_cont, s_cate, a)] = 1.
         return feat_v
 
-    def update(self, s_cont, s_cate, a, delta):
+    def update(self, alpha, G, s_cont, s_cate, a):
         """
         update the Q value
         """
+        delta = alpha*(G - self.compute_value(s_cont, s_cate, a))
         delta = delta / self.num_tilings()
         for i in range(self.dim[0]):
             weight_idx = self.idx(i, s_cont, s_cate, a)

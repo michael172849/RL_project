@@ -41,16 +41,19 @@ class Env():
         for i in range(days):
             prev = "test"
             self.reset()
+            r_s = 0
             print("=============================================================================")
             while not self.done:
                 # if self.state['act_truth'] != prev:
                 #     print (i, self.state)
                 #     prev = self.state['act_truth']
-                cont, cate = self.model.get_cont_cate(self.state)
-                a = self.agent.getAction(cont, cate)
+                state = self.model.get_cont_cate(self.state)
+                a = self.agent.getAction(state)
                 s_p, r, self.done = self.step(a)
-                self.agent.update(cont, cate, r,a)
+                r_s += r
+                self.agent.update(state, r,a)
                 self.state = s_p
-            self.agent.finishEpisode()
+            print (i, r_s)
+            self.agent.finishEpisode(self.model.get_cont_cate(self.state))
         
     
