@@ -1,4 +1,8 @@
-class Agent():
+from agent import Agent
+class nSarsaAgent(Agent):
+    """
+    Base class for agent
+    """
     def __init__(
         self, 
         actions : list):

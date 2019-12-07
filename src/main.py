@@ -1,20 +1,24 @@
 from action import Action
-from rule import Rule
 from env import Env
-from agent import Agent
-from coffeeRule import CoffeeRule
+from agent import *
+from rules import *
+from dataModel import DataModel
+
 def main():
     actions = []
     rules = []
     actions.append(Action(
-        name = 'coffee',
+        name = 'preheat',
         time_cost=300
     ))
-    rules.append(CoffeeRule(
+    rules.append(OvenRule(
         100.,
         0.2
     ))
-    environ = Env(actions, rules)
+    agent = nSarsaAgent(
+        actions
+    )
+    environ = Env(actions, rules, agent, DataModel("coffee_guy"))
 
     for i in range(100):
         environ.step()

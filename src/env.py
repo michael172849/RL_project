@@ -1,17 +1,19 @@
 # Time, Location(Room Label), Posture
 # 
 from typing import Iterable
-from agent import Agent
+from agent.agent import Agent
 from action import Action
-from rule import Rule
+from rules.rule import Rule
 from model import Model
 class Env():
     def __init__(self, 
                 actions: Iterable[Action],
                 rules: Iterable[Rule],
-                model: Model):
+                agent: Agent,
+                model: Model,
+                ):
         self.actions = actions
-        self.agent = Agent(actions)
+        self.agent = agent
         self.rules = rules
         self.model = model
         self.state = None
@@ -28,7 +30,7 @@ class Env():
             r += action.stepReward(self.state['time'])
         
         for rule in self.rules:
-            r += rule.checkRule()
+            r += rule.check()
     
         a = self.agent.getAction(self.state)
         a['act'](self.state['time'])

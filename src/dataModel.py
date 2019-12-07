@@ -243,15 +243,17 @@ class DataModel():
     def findStateByActivity(self, activity):
         return [x for x in self.s if x == State(activity)]
 
-    def step(self, seconds):
+    def step(self, seconds=60):
         """
         seconds: how many seconds is it going forward
         returns: (time of the day(in seconds), location(label), activity(ground truth))
         """
         self.cur_time += seconds
         if self.cur_time > 86399:
-            return np.ceil(self.cur_time), self.cur.get_location(self.remaining_duration), True, self.cur.get_activity()
-
+            return {"time":np.ceil(self.cur_time), 
+                    "loc_cate":self.cur.get_location(self.remaining_duration),
+                    "truth":self.cur.get_activity(),}, True
+                    
         while self.remaining_duration < seconds:    # if there are remaining time for current state / transition
             seconds -= self.remaining_duration
             if isinstance(self.cur, State):    # if the user was previously in state
@@ -264,7 +266,9 @@ class DataModel():
         if self.remaining_duration >= seconds:    # now the user is stopping halfway of a state or transition
             self.remaining_duration -= seconds
  
-        return np.ceil(self.cur_time), self.cur.get_location(self.remaining_duration), False, self.cur.get_activity()
+        return {"time":np.ceil(self.cur_time), 
+                "loc_cate":self.cur.get_location(self.remaining_duration),
+                "truth":self.cur.get_activity(),}, False
 
     def get_num_locations(self):
         location_list = []
