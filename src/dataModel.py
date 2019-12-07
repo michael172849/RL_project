@@ -185,8 +185,8 @@ class DataModel():
             # Define all the states
             sleep_state = State("Sleeping", "home_bed", 2*60*60)
             wake_up_state = State("Wake up", "home_bedroom", 5*60, 10)
-            home_bathroom_state = State("PersonalGrooming", "home_bathroom", 7*60, 60)
-            breakfast_state = State("Breakfast", "home_kitchen", 30*60, 10*60)
+            home_bathroom_state = State("PersonalGrooming", "home_bathroom", 7*60, 30)
+            breakfast_state = State("Breakfast", "home_kitchen", 30*60, 60)
 
             morning_work_state = State("MorningWork", "Office/Workplace", 3*60*60)
             evening_work_state = State("EveningWork", "Office/Workplace", 5*60*60)
