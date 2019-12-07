@@ -12,6 +12,11 @@ class Action():
         self.step_time = step_time      # the step time in seconds
         self.last_check = 0.
 
+    def reset(self):
+        self.last_check = 0.
+        self.onTime = 0
+        self.isOn = False
+
     def stepReward(self, time):
         if not self.isOn:
             return 0.

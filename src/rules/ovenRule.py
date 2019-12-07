@@ -38,7 +38,7 @@ class OvenRule(Rule):
             return 0
         if (s['loc_cate'] == self.sequence[self.seqIdx]['loc_cate'] and
             s['act_truth'] == self.sequence[self.seqIdx]['act_truth']):
-            # print(s)
+            print(('met event', s['act_truth']))
             self.seqIdx += 1
             self.last = s['time']
         return 0

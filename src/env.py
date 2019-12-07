@@ -21,6 +21,8 @@ class Env():
 
     def reset(self):
         self.model.reset()
+        for action in self.actions:
+            action.reset()
         self.state, self.done = self.model.step(0)
 
     def step(self, a):
@@ -30,7 +32,6 @@ class Env():
         r = 0
         for action in self.actions:
             r += action.stepReward(self.state['time'])
-        
         for rule in self.rules:
             r += rule.check(self.state)
         s, done = self.model.step()
@@ -41,14 +42,14 @@ class Env():
             flag = False
             self.reset()
             while not self.done:
-                if self.state['act_truth'] == "Wake up" and flag == False:
+                if self.state['act_truth'] == "Breakfast" and flag == False:
                     flag = True
                     print (i, self.state)
                 a = self.agent.getAction(self.state)
                 s_p, r, self.done = self.step(a)
                 self.agent.update(r,a,self.state)
                 self.state = s_p
-                # if r > 0:
-                    # print(i, self.state['time'], r)
+                if r > 0:
+                    print(i, self.state['time'], r)
         
     
