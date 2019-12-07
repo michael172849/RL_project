@@ -237,7 +237,9 @@ class DataModel():
         # initialze time
         self.remaining_duration = self.start_state.get_duration_seconds()
 
-    def reset(self, p=self.role):
+    def reset(self, p=None):
+        if p is None:
+            p = self.role
         self.__init__(p)
 
     def findStateByActivity(self, activity):
@@ -268,7 +270,7 @@ class DataModel():
  
         return {"time":np.ceil(self.cur_time), 
                 "loc_cate":self.cur.get_location(self.remaining_duration),
-                "truth":self.cur.get_activity(),}, False
+                "act_truth":self.cur.get_activity(),}, False
 
     def get_num_locations(self):
         location_list = []

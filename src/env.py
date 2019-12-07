@@ -1,7 +1,7 @@
 # Time, Location(Room Label), Posture
 # 
 from typing import Iterable
-from agent.agent import Agent
+from agents.agent import Agent
 from action import Action
 from rules.rule import Rule
 from model import Model
@@ -17,25 +17,34 @@ class Env():
         self.rules = rules
         self.model = model
         self.state = None
+        self.done = False
 
     def reset(self):
         self.model.reset()
-        self.state = self.model.state
+        self.state, self.done = self.model.step(0)
 
-    def step(self):
-        if self.state is None:
-            self.reset()
+    def step(self, a):
+        if self.done:
+            return self.state, 0, self.done
+        a['act'](self.state['time'])
         r = 0
         for action in self.actions:
             r += action.stepReward(self.state['time'])
         
         for rule in self.rules:
-            r += rule.check()
-    
-        a = self.agent.getAction(self.state)
-        a['act'](self.state['time'])
-        self.agent.update(r, a, self.state)
-        self.model.step()
-        self.state = self.model.state
+            r += rule.check(self.state)
+        s, done = self.model.step()
+        return s, r, done
+
+    def run(self, episodes):
+        for i in range(episodes):
+            if self.state is None or self.done:
+                self.reset()
+            a = self.agent.getAction(self.state)
+            s_p, r, self.done = self.step(a)
+            self.agent.update(r,a,self.state)
+            self.state = s_p
+            if r > 0:
+                print(i, r)
         
     

@@ -1,9 +1,9 @@
-from rule import Rule
+from rules.rule import Rule
 class CoffeeRule(Rule):
     def __init__(self, reward, decay, targetAction, timeLimit = 900, maxWaitTime = 900):
         super().__init__(reward, decay)
-        self.sequence = [{'loc':'home-bedroom', 'act':'wakeup'},
-                    {'loc':'home-kitchen', 'act':'breakfast'}]
+        self.sequence = [{'loc_cate':'home-bedroom', 'act_truth':'Wake up'},
+                    {'loc_cate':'home-kitchen', 'act_truth':'breakfast'}]
         self.timeLimit = timeLimit          #max time difference between sequence in seconds
         self.targetAction = targetAction
         self.maxWaitTime = maxWaitTime
@@ -31,8 +31,8 @@ class CoffeeRule(Rule):
             self.reset()
             return 0
 
-        if (s['loc'] == self.sequence[self.seqIdx]['loc'] and
-            s['activity'] == self.sequence[self.seqIdx]['loc']):
+        if (s['loc_cate'] == self.sequence[self.seqIdx]['loc_cate'] and
+            s['act_truth'] == self.sequence[self.seqIdx]['act_truth']):
             self.seqIdx += 1
             self.last = s['time']
         return self.isMet(s)

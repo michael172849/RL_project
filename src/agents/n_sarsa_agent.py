@@ -1,4 +1,4 @@
-from agent import Agent
+from agents.agent import Agent
 class nSarsaAgent(Agent):
     """
     Base class for agent
@@ -10,7 +10,7 @@ class nSarsaAgent(Agent):
 
 
     def getAction(self, state):
-        return actions[0].startAction, 0
+        return {'act':self.actions[0].startAction, 'id':0}
     
     def update(self, reward, action, state):
         pass

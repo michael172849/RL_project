@@ -1,7 +1,9 @@
 from action import Action
 from env import Env
-from agent import *
-from rules import *
+from agents.agent import Agent
+from agents.n_sarsa_agent import nSarsaAgent
+from rules.coffeeRule import CoffeeRule
+from rules.ovenRule import OvenRule
 from dataModel import DataModel
 
 def main():
@@ -13,15 +15,14 @@ def main():
     ))
     rules.append(OvenRule(
         100.,
-        0.2
+        0.2,
+        actions[0],
     ))
     agent = nSarsaAgent(
         actions
     )
     environ = Env(actions, rules, agent, DataModel("coffee_guy"))
-
-    for i in range(100):
-        environ.step()
+    environ.run(1000)
     
-if __name__ == "main":
+if __name__ == "__main__":
     main()
