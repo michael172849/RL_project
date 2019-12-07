@@ -15,14 +15,14 @@ def main():
     ))
     rules.append(OvenRule(
         100.,
-        0.2,
+        0.1,
         actions[0],
     ))
     agent = nSarsaAgent(
         actions
     )
     environ = Env(actions, rules, agent, DataModel("coffee_guy"))
-    environ.run(1000)
+    environ.run(10)
     
 if __name__ == "__main__":
     main()
