@@ -50,18 +50,25 @@ class Env():
             r_s = 0
             print("======Day {}====================================================================".format(i))
             self.feat = self.model.get_cont_cate(self.state)
-            self.feat = self.feat[0], np.append(self.feat[1], self.rules_set)
+            prev = self.model.get_loc_index(self.state['loc_cate'])
+            extra = [prev]
+            extra.extend(self.rules_set)
+            self.feat = self.feat[0], np.append(self.feat[1], extra)
             a = self.agent.getAction(self.feat)
             actions = [a['id']]
             self.rules_set = np.zeros(len(self.rules))
             while not self.done:
                 s_p, r, self.done = self.step(a)
+                if s_p['loc_cate'] != self.state['loc_cate']:
+                    prev = self.model.get_loc_index(self.state['loc_cate'])
                 sp_feat = self.model.get_cont_cate(self.state)
-                sp_feat = sp_feat[0], np.append(sp_feat[1], self.rules_set)
+                extra = [prev]
+                extra.extend(self.rules_set)
+                sp_feat = sp_feat[0], np.append(sp_feat[1], extra)
                 r_s += r
                 a = self.agent.update(self.feat, r,a, sp_feat)
                 # if s_p['act_truth'] in ['Breakfast', 'Wake up', 'PersonalGrooming']:
-                # if a['id'] == 1:
+                # if a['id'] == 1 and i>50:
                 #     print (a['id'], s_p['act_truth'], sec_to_str(s_p['time']), s_p['loc_cate'])
                 # print(s_p['loc_cate'], self.model.get_cont_cate(s_p)[1])
                 actions.append(a['id'])

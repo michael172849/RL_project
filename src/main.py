@@ -24,7 +24,7 @@ def main():
         actions[0],
     ))
     model = DataModel("coffee_guy")
-    nL = [model.get_num_locations()]
+    nL = [model.get_num_locations(), model.get_num_locations()]
     nL.extend([2]*len(rules))
     nA = len(actions) * 2
     low, high = model.get_cont_low_high()

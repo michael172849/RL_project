@@ -18,7 +18,7 @@ class nSarsaAgent(Agent):
         alpha = 0.01):
         self.actions = actions      #List of actions
         self.nA = len(self.actions) * 2
-        self.eps = 0.01
+        self.eps = 0.
         self.q_func = Q_func
         self.gamma = gamma
         self.alpha = alpha

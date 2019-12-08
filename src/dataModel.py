@@ -300,6 +300,8 @@ class DataModel():
         cate = np.array([self.loc_set.index(state['loc_cate'])]).astype(int)
         return cont, cate
 
+    def get_loc_index(self, loc_cate):
+        return self.loc_set.index(loc_cate)
     def add_data(self, data):
         s = State(data.activity, data.location, data.duration)
         

@@ -1,10 +1,9 @@
 from rules.rule import Rule
 from util import sec_to_str
 class OvenRule(Rule):
-    def __init__(self, reward, decay, targetAction, timeLimit = 900, maxWaitTime = 600):
+    def __init__(self, reward, decay, targetAction, timeLimit = 1200, maxWaitTime = 600):
         super().__init__(reward, decay)
-        self.sequence = [{'loc_cate':'home_bedroom', 'act_truth':'Wake up'},
-                    {'loc_cate':'home_bathroom', 'act_truth':'PersonalGrooming'},
+        self.sequence = [{'loc_cate':'home_bathroom', 'act_truth':'PersonalGrooming'},
                     {'loc_cate':'home_kitchen', 'act_truth':'Breakfast'},]
         self.timeLimit = timeLimit          #max time difference between sequence in seconds
         self.targetAction = targetAction
