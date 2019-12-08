@@ -288,13 +288,14 @@ class DataModel():
         return len(self.loc_set)  # @TODO change this later
     
     def get_cont_low_high(self):
-        return [self.observation_space.low], [self.observation_space.high]
+        # return [self.observation_space.low], [self.observation_space.high]
+        return [],[]
 
     def get_cont_cate(self, state):
         """
             Compute the continuous and categorical part of a state snapshot
         """
-        cont = np.array([state['time']])
+        cont = np.array([])
         cate = np.array([self.loc_set.index(state['loc_cate'])])
         return cont, cate
 

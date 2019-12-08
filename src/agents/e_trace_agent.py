@@ -23,8 +23,12 @@ class ETraceAgent(Agent):
         self.w = np.zeros((self.q_func.feature_vector_len()))
 
     def resetTrace(self):
-        self.rewards = []
-        self.states = []
-        self.act_ids = []
-        self.t = 0
-        self.T = float('inf')
+        
+    def getAction(self, s):
+        act_id = self.epsilon_greedy_policy(s[0], s[1], self.q_func, self.eps)
+        if act_id % 2 == 0:
+            return {'act':self.actions[act_id // 2].stopAction, 'id':act_id}
+        else:
+            return {'act':self.actions[act_id // 2].startAction, 'id':act_id}
+ 
+

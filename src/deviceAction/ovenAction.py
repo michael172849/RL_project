@@ -34,8 +34,8 @@ class OvenAction(Action):
         self.isOn = 0
     
     def isReady(self, state):
-        # print (self.cur_temp)
-        if self.cur_temp >= self.set_temp:
+        print (self.cur_temp, state['time'])
+        if self.cur_temp >= self.set_temp-20:
             return True
         else:
             return False

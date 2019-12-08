@@ -26,13 +26,13 @@ def main():
     nA = len(actions) * 2
     low, high = model.get_cont_low_high()
     q_f = QFuncMixed(low, high, nL, nA, 10, np.array([60]))
-    nn_f = QModelWithNN(len(low) + len(nL))
+    nn_f = QModelWithNN(low, high, nL, nA, 0.001)
     agent = nSarsaAgent(
         actions,
-        nn_f,
+        q_f,
         20,
         1.0,
-        0,
+        0.1,
     )
 
     environ = Env(actions, rules, agent, model)

@@ -28,21 +28,24 @@ class NN_model():
             return out_layer
 
 class QModelWithNN():
+    def normalize(self, s_cont):
+        return np.array([(s-self.low[i])/(self.high[i] - self.low[i]) for i,s in enumerate(s_cont)])
+
     def __init__(self,
-                 state_dims):
+                 low, high, num_cate, nA, alpha=0.001):
         """
         state_dims: the number of dimensions of state space
         """
-        self.input_dims = state_dims + 1
-
+        self.low = low
+        self.high = high
+        self.input_dims = len(low)+len(num_cate) + 1
         self.nn_model = NN_model(self.input_dims, 1, "pi")
         self.X = tf.placeholder("float32", [None, self.input_dims])
         self.Y = tf.placeholder("float32", [None, 1])
         self.Y_hat = self.nn_model.output(self.X)
         self.loss_op=0.5 * tf.losses.mean_squared_error(self.Y,self.Y_hat)#loss function
-        self.alpha = tf.placeholder("float32",[])
         optimizer = tf.train.AdamOptimizer(
-                learning_rate = self.alpha,
+                learning_rate = alpha,
                 beta1=0.9,
                 beta2=0.999,    
             )
@@ -56,7 +59,7 @@ class QModelWithNN():
 
     def __call__(self, s_cont, s_cate, a):
         # TODO: implement this method
-        s = np.append(s_cont, s_cate)
+        s = np.append(self.normalize(s_cont), s_cate)
         X = np.reshape(np.append(s,[a]), (1,self.input_dims))
         pred = self.sess.run(self.Y_hat, feed_dict = {self.X:X})
         return pred[0,0]
@@ -65,10 +68,9 @@ class QModelWithNN():
         return self.__call__(s_cont, s_cate, a)
 
     def update(self,alpha,G,s_cont, s_cate, a_tau):
-        s_tau = np.append(s_cont, s_cate)
-        print(s_tau)
+        s_tau = np.append(self.normalize(s_cont), s_cate)
         X = np.reshape(np.append(s_tau,[a_tau]), (1,self.input_dims))
         Y = np.reshape(np.array([G]), (1,1,))
-        self.sess.run(self.train_op, feed_dict = {self.X:X, self.Y:Y, self.alpha:alpha})
+        self.sess.run(self.train_op, feed_dict = {self.X:X, self.Y:Y})
 
 
