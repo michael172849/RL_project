@@ -64,5 +64,5 @@ def baseline():
     env = BaselineEnv(actions, rules, model)
     env.run(500)
 if __name__ == "__main__":
-    main()
-    # baseline()
+    # main()
+    baseline()
