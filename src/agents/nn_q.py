@@ -59,7 +59,7 @@ class QModelWithNN():
 
     def __call__(self, s_cont, s_cate, a):
         # TODO: implement this method
-        s = np.append(self.normalize(s_cont), s_cate)
+        s = np.extend(self.normalize(s_cont), s_cate)
         X = np.reshape(np.append(s,[a]), (1,self.input_dims))
         pred = self.sess.run(self.Y_hat, feed_dict = {self.X:X})
         return pred[0,0]
@@ -68,7 +68,7 @@ class QModelWithNN():
         return self.__call__(s_cont, s_cate, a)
 
     def update(self,alpha,G,s_cont, s_cate, a_tau):
-        s_tau = np.append(self.normalize(s_cont), s_cate)
+        s_tau = np.extend(self.normalize(s_cont), s_cate)
         X = np.reshape(np.append(s_tau,[a_tau]), (1,self.input_dims))
         Y = np.reshape(np.array([G]), (1,1,))
         self.sess.run(self.train_op, feed_dict = {self.X:X, self.Y:Y})

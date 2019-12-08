@@ -18,7 +18,7 @@ class nSarsaAgent(Agent):
         alpha = 0.01):
         self.actions = actions      #List of actions
         self.nA = len(self.actions) * 2
-        self.eps = 0.
+        self.eps = 0.01
         self.q_func = Q_func
         self.gamma = gamma
         self.alpha = alpha
@@ -40,7 +40,7 @@ class nSarsaAgent(Agent):
         else:
             return {'act':self.actions[act_id // 2].startAction, 'id':act_id}
     
-    def update(self, s, reward, action):
+    def update(self, s, reward, action, s_p):
         self.act_ids.append(action['id'])
         self.states.append(s)
         self.rewards.append(reward)
@@ -55,6 +55,7 @@ class nSarsaAgent(Agent):
             for t_i in range(min(self.T, tau + self.n) - 1, tau - 1, -1):
                 returns = returns * self.gamma + self.rewards[t_i]
             self.q_func.update(self.alpha, returns, self.states[tau][0], self.states[tau][1], self.act_ids[tau])
+        return self.getAction(s_p)
 
     def finishEpisode(self, doneState):
         self.states.append(doneState)
@@ -73,5 +74,6 @@ class nSarsaAgent(Agent):
                 self.q_func.update(self.alpha, returns, self.states[tau][0], self.states[tau][1], self.act_ids[tau])
             self.t += 1
             tau = self.t - self.n
-
         self.resetTrace()
+
+

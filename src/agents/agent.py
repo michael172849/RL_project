@@ -11,5 +11,5 @@ class Agent():
     def getAction(self, state):
         return actions[0].startAction, 0
     
-    def update(self, reward, action, state):
+    def update(self, reward, action, state, s_p):
         pass

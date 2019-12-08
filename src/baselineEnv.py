@@ -2,20 +2,17 @@
 # 
 import numpy as np
 from typing import Iterable
-from agents.agent import Agent
 from deviceAction.action import Action
 from rules.rule import Rule
 from model import Model
 from util import sec_to_str
-class Env():
+class BaselineEnv():
     def __init__(self, 
                 actions: Iterable[Action],
                 rules: Iterable[Rule],
-                agent: Agent,
                 model: Model,
                 ):
         self.actions = actions
-        self.agent = agent
         self.rules = rules
         self.model = model
         self.state = None
@@ -49,25 +46,15 @@ class Env():
             self.reset()
             r_s = 0
             print("======Day {}====================================================================".format(i))
-            self.feat = self.model.get_cont_cate(self.state)
-            self.feat = self.feat[0], np.append(self.feat[1], self.rules_set)
-            a = self.agent.getAction(self.feat)
-            actions = [a['id']]
-            self.rules_set = np.zeros(len(self.rules))
+            a = None
             while not self.done:
+                if self.state['act_truth'] == 'Breakfast' and self.rules_set[0] == 0:
+                    a = {'act':self.actions[0].startAction, 'id':1}
+                else:
+                    a = {'act':self.actions[0].stopAction, 'id':0}
                 s_p, r, self.done = self.step(a)
-                sp_feat = self.model.get_cont_cate(self.state)
-                sp_feat = sp_feat[0], np.append(sp_feat[1], self.rules_set)
+                self.state = s_p
                 r_s += r
-                a = self.agent.update(self.feat, r,a, sp_feat)
-                # if s_p['act_truth'] in ['Breakfast', 'Wake up', 'PersonalGrooming']:
-                # if a['id'] == 1:
-                #     print (a['id'], s_p['act_truth'], sec_to_str(s_p['time']), s_p['loc_cate'])
-                # print(s_p['loc_cate'], self.model.get_cont_cate(s_p)[1])
-                actions.append(a['id'])
-                self.state =s_p
-                self.feat = sp_feat
             print ("Return:{}!!!".format(r_s))
-            self.agent.finishEpisode(self.feat)
         
     

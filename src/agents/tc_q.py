@@ -48,8 +48,10 @@ class QFuncMixed():
         tile_idx = [tile]
         for idx, feat in enumerate(s_cont):
             tile_idx.append(int((feat - self.tiling_feat_start[idx][tile]) // self.tile_width[idx]))
-        tile_idx.append(s_cate)
+        # print(s_cate)
+        tile_idx.extend(s_cate.astype(int))
         tile_idx.append(a)
+        # print(tile_idx)
         return np.ravel_multi_index(tuple(tile_idx), self.dim)
 
     def __call__(self, s_cont, s_cate, a) -> np.array:

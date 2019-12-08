@@ -1,4 +1,5 @@
 from rules.rule import Rule
+from util import sec_to_str
 class OvenRule(Rule):
     def __init__(self, reward, decay, targetAction, timeLimit = 900, maxWaitTime = 600):
         super().__init__(reward, decay)
@@ -28,8 +29,7 @@ class OvenRule(Rule):
             step_r = -self.decay * (s['time'] - self.last_check_time)
             self.last_check_time = s['time']
             return step_r
-    def sec_to_str(self, sec):
-        return str(int(sec/60/60)) + ":" + str(int(sec/60%60)) + ":" + str(int(sec%60))
+
     def check(
             self,
             s):
@@ -42,6 +42,6 @@ class OvenRule(Rule):
             s['act_truth'] == self.sequence[self.seqIdx]['act_truth']):
             self.seqIdx += 1
             if self.seqIdx == len(self.sequence): 
-                print('Oven Rule met at time:{}'.format(self.sec_to_str(s['time'])))
+                print('Oven Rule met at time:{}'.format(sec_to_str(s['time'])))
             self.last = s['time']
         return 0

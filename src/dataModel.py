@@ -151,7 +151,7 @@ class DataModel():
         """
         pre_defined: load pre-defined models rather than automatically processing the dataset
         """
-        np.random.seed(seed)
+        # np.random.seed(seed)
 
         self.s = []   # states
         self.cur_time = 0    # current time in seconds (ranges 0 ~ 43199)
@@ -207,7 +207,7 @@ class DataModel():
             # Define transitions
             sleep_state.add_next_state(wake_up_state, 0.1, 7, 10)
 
-            wake_up_state.add_next_state(home_bathroom_state, 0.1, 9, 10)
+            wake_up_state.add_next_state(home_bathroom_state, 10, 9, 4)
             home_bathroom_state.add_next_state(breakfast_state, 60, 9, 10)
             breakfast_state.add_next_state(morning_work_state, 30*60, 5)   # weekdays. takes 30min to commute to work
             breakfast_state.add_next_state(housework_livingroom_state, 60, 2)    # weekends.
@@ -285,18 +285,19 @@ class DataModel():
                 "act_truth":self.cur.get_activity(),}, False
 
     def get_num_locations(self):
+        print(self.loc_set)
         return len(self.loc_set)  # @TODO change this later
     
     def get_cont_low_high(self):
-        # return [self.observation_space.low], [self.observation_space.high]
-        return [],[]
+        return [self.observation_space.low], [self.observation_space.high]
+        # return [],[]
 
     def get_cont_cate(self, state):
         """
             Compute the continuous and categorical part of a state snapshot
         """
-        cont = np.array([])
-        cate = np.array([self.loc_set.index(state['loc_cate'])])
+        cont = np.array([state['time']])
+        cate = np.array([self.loc_set.index(state['loc_cate'])]).astype(int)
         return cont, cate
 
     def add_data(self, data):
