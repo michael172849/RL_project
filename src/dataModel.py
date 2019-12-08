@@ -151,7 +151,7 @@ class DataModel():
         """
         pre_defined: load pre-defined models rather than automatically processing the dataset
         """
-        # np.random.seed(seed)
+        np.random.seed(seed)
 
         self.s = []   # states
         self.cur_time = 0    # current time in seconds (ranges 0 ~ 43199)
@@ -205,10 +205,10 @@ class DataModel():
             going_to_bed_state = State("Going to bed", "home_bed", 20*60*60, 10)
 
             # Define transitions
-            sleep_state.add_next_state(wake_up_state, 0.1, 7)
+            sleep_state.add_next_state(wake_up_state, 0.1, 7, 10)
 
-            wake_up_state.add_next_state(home_bathroom_state, 0.1, 9)
-            home_bathroom_state.add_next_state(breakfast_state, 60, 9)
+            wake_up_state.add_next_state(home_bathroom_state, 0.1, 9, 10)
+            home_bathroom_state.add_next_state(breakfast_state, 60, 9, 10)
             breakfast_state.add_next_state(morning_work_state, 30*60, 5)   # weekdays. takes 30min to commute to work
             breakfast_state.add_next_state(housework_livingroom_state, 60, 2)    # weekends.
 
