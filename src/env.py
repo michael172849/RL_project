@@ -26,6 +26,7 @@ class Env():
         for action in self.actions:
             action.reset()
         self.rules_set = np.zeros(len(self.rules))
+        self.prevLoc = "###"
         self.state, self.done = self.model.step(0)
 
     def step(self, a):
@@ -43,33 +44,43 @@ class Env():
         s, done = self.model.step(30)
         return s, r, done
 
-    def run(self, days):
+    def get_feat_from_state(self, state, moreFeature=False):
+        if moreFeature:
+            feat = self.model.get_cont_cate(state)
+            if self.prevLoc =="###":
+                self.prevLoc = self.model.get_loc_index(state['loc_cate'])
+            extra = [self.prevLoc]              #previous Location
+            extra.extend(self.rules_set)        #Is rule met
+            feat = feat[0], np.append(feat[1], extra)
+            return feat
+        else:
+            return self.model.get_cont_cate(self.state)
+    def run(self, days, moreFeature=False):
+        self.moreFeature = True
         for i in range(days):
-            prev = "test"
             self.reset()
             r_s = 0
             print("======Day {}====================================================================".format(i))
-            self.feat = self.model.get_cont_cate(self.state)
-            prev = self.model.get_loc_index(self.state['loc_cate'])
-            extra = [prev]
-            extra.extend(self.rules_set)
-            self.feat = self.feat[0], np.append(self.feat[1], extra)
+            self.feat = self.get_feat_from_state(self.state, moreFeature)
             a = self.agent.getAction(self.feat)
             actions = [a['id']]
             self.rules_set = np.zeros(len(self.rules))
             while not self.done:
                 s_p, r, self.done = self.step(a)
                 if s_p['loc_cate'] != self.state['loc_cate']:
-                    prev = self.model.get_loc_index(self.state['loc_cate'])
-                sp_feat = self.model.get_cont_cate(self.state)
-                extra = [prev]
-                extra.extend(self.rules_set)
-                sp_feat = sp_feat[0], np.append(sp_feat[1], extra)
+                    self.prevLoc = self.model.get_loc_index(self.state['loc_cate'])
+                # sp_feat = self.model.get_cont_cate(self.state)
+                # extra = [prev]
+                # extra.extend(self.rules_set)
+                sp_feat = self.get_feat_from_state(s_p, moreFeature)
                 r_s += r
-                a = self.agent.update(self.feat, r,a, sp_feat)
                 # if s_p['act_truth'] in ['Breakfast', 'Wake up', 'PersonalGrooming']:
-                # if a['id'] == 1 and i>50:
+                # if a['id'] == 1 and i>80:
                 #     print (a['id'], s_p['act_truth'], sec_to_str(s_p['time']), s_p['loc_cate'])
+
+                # if a['id'] == 0 and i > 50 and s_p['time']>43200 and r<0:
+                #     print (a['id'], self.state, r)
+                a = self.agent.update(self.feat, r,a, sp_feat)
                 # print(s_p['loc_cate'], self.model.get_cont_cate(s_p)[1])
                 actions.append(a['id'])
                 self.state =s_p
