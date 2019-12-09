@@ -103,9 +103,7 @@ class Env():
             day_returns.append(r_s)
             print ("Return:{}!!!".format(r_s))
             file.write(str(r_s) + "\n")
-
-            if r_s<0:
-                print(locs)
+            print(locs)
             self.agent.finishEpisode(self.feat)
         
             file.close()

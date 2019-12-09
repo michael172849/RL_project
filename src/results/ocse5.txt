@@ -1,0 +1,201 @@
+['home_bed', 'home_livingroom', 'home_bedroom', 'Building', 'Office', 'home_study', 'home_bathroom', 'Restaurant', 'home_kitchen', 'Street']
+OvenRule.out
+======Day 0====================================================================
+OvenRule met at time:9:3:0
+Return:-330.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 1====================================================================
+OvenRule met at time:8:14:30
+Finish preheat at 8:15:0
+Return:132.5!!!
+======Day 2====================================================================
+OvenRule met at time:7:38:0
+Finish preheat at 7:38:30
+Return:130.25!!!
+======Day 3====================================================================
+OvenRule met at time:7:48:0
+Finish preheat at 7:57:30
+Return:-140.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 4====================================================================
+OvenRule met at time:8:6:0
+Finish preheat at 8:6:30
+Return:97.25!!!
+======Day 5====================================================================
+OvenRule met at time:8:36:0
+Finish preheat at 8:36:30
+Return:127.25!!!
+======Day 6====================================================================
+OvenRule met at time:7:56:30
+Finish preheat at 7:57:0
+Return:128.0!!!
+======Day 7====================================================================
+OvenRule met at time:7:52:0
+Finish preheat at 7:52:30
+Return:128.75!!!
+======Day 8====================================================================
+OvenRule met at time:8:38:30
+Finish preheat at 8:39:0
+Return:126.5!!!
+======Day 9====================================================================
+OvenRule met at time:8:7:30
+Finish preheat at 8:8:0
+Return:131.75!!!
+======Day 10====================================================================
+OvenRule met at time:8:4:30
+Finish preheat at 8:5:0
+Return:137.75!!!
+======Day 11====================================================================
+OvenRule met at time:8:42:0
+Finish preheat at 8:42:30
+Return:127.25!!!
+======Day 12====================================================================
+OvenRule met at time:7:53:30
+Finish preheat at 7:54:0
+Return:128.0!!!
+======Day 13====================================================================
+OvenRule met at time:8:31:0
+Finish preheat at 8:31:30
+Return:128.75!!!
+======Day 14====================================================================
+OvenRule met at time:9:10:30
+Finish preheat at 9:11:0
+Return:128.75!!!
+======Day 15====================================================================
+OvenRule met at time:8:34:0
+Finish preheat at 8:34:30
+Return:134.0!!!
+======Day 16====================================================================
+OvenRule met at time:7:37:0
+Finish preheat at 7:37:30
+Return:129.5!!!
+======Day 17====================================================================
+OvenRule met at time:7:19:30
+Finish preheat at 7:20:0
+Return:50.0!!!
+======Day 18====================================================================
+OvenRule met at time:7:50:0
+Finish preheat at 7:50:30
+Return:125.75!!!
+======Day 19====================================================================
+OvenRule met at time:8:20:0
+Finish preheat at 8:20:30
+Return:134.0!!!
+======Day 20====================================================================
+OvenRule met at time:8:49:30
+Finish preheat at 8:50:0
+Return:131.0!!!
+======Day 21====================================================================
+OvenRule met at time:8:35:0
+Finish preheat at 8:35:30
+Return:123.5!!!
+======Day 22====================================================================
+OvenRule met at time:8:33:30
+Finish preheat at 8:34:0
+Return:129.5!!!
+======Day 23====================================================================
+OvenRule met at time:8:4:30
+Finish preheat at 8:5:0
+Return:135.5!!!
+======Day 24====================================================================
+OvenRule met at time:8:38:0
+Finish preheat at 8:38:30
+Return:130.25!!!
+======Day 25====================================================================
+OvenRule met at time:8:16:30
+Finish preheat at 8:17:0
+Return:126.5!!!
+======Day 26====================================================================
+OvenRule met at time:7:46:30
+Finish preheat at 7:47:0
+Return:124.25!!!
+======Day 27====================================================================
+OvenRule met at time:7:29:0
+Finish preheat at 7:29:30
+Return:125.75!!!
+======Day 28====================================================================
+OvenRule met at time:7:52:0
+Finish preheat at 7:52:30
+Return:127.25!!!
+======Day 29====================================================================
+OvenRule met at time:7:56:30
+Finish preheat at 7:57:0
+Return:128.0!!!
+======Day 30====================================================================
+Return:-93.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 31====================================================================
+OvenRule met at time:7:48:30
+Finish preheat at 7:49:0
+Return:130.25!!!
+======Day 32====================================================================
+OvenRule met at time:8:7:30
+Finish preheat at 8:8:0
+Return:128.0!!!
+======Day 33====================================================================
+OvenRule met at time:8:24:30
+Finish preheat at 8:25:0
+Return:125.0!!!
+======Day 34====================================================================
+OvenRule met at time:8:30:30
+Finish preheat at 8:31:0
+Return:124.25!!!
+======Day 35====================================================================
+OvenRule met at time:8:27:30
+Finish preheat at 8:28:0
+Return:128.75!!!
+======Day 36====================================================================
+OvenRule met at time:8:21:0
+Finish preheat at 8:21:30
+Return:125.0!!!
+======Day 37====================================================================
+OvenRule met at time:8:36:30
+Finish preheat at 8:37:0
+Return:134.0!!!
+======Day 38====================================================================
+OvenRule met at time:8:0:0
+Finish preheat at 8:0:30
+Return:128.75!!!
+======Day 39====================================================================
+OvenRule met at time:8:5:30
+Finish preheat at 8:6:0
+Return:124.25!!!
+======Day 40====================================================================
+OvenRule met at time:9:6:0
+Finish preheat at 9:6:30
+Return:126.5!!!
+======Day 41====================================================================
+OvenRule met at time:8:24:30
+Finish preheat at 8:25:0
+Return:116.0!!!
+======Day 42====================================================================
+OvenRule met at time:8:44:30
+Finish preheat at 8:45:0
+Return:128.75!!!
+======Day 43====================================================================
+OvenRule met at time:8:53:0
+Finish preheat at 8:53:30
+Return:131.0!!!
+======Day 44====================================================================
+OvenRule met at time:7:47:0
+Finish preheat at 7:47:30
+Return:125.0!!!
+======Day 45====================================================================
+OvenRule met at time:8:45:30
+Finish preheat at 8:46:0
+Return:131.75!!!
+======Day 46====================================================================
+OvenRule met at time:8:1:30
+Finish preheat at 8:2:0
+Return:128.75!!!
+======Day 47====================================================================
+OvenRule met at time:8:5:0
+Finish preheat at 8:5:30
+Return:126.5!!!
+======Day 48====================================================================
+OvenRule met at time:8:21:0
+Finish preheat at 8:21:30
+Return:134.75!!!
+======Day 49====================================================================
+OvenRule met at time:8:6:0
+Finish preheat at 8:6:30
