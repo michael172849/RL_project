@@ -67,13 +67,13 @@ def main(moreFeature=False):
         0.9,
         0.1,
     )
-    # agent = ETraceAgent(
-    #     actions,
-    #     q_f,
-    #     1.0,
-    #     0.5,
-    #     0.1,
-    # )
+    agent = ETraceAgent(
+        actions,
+        q_f,
+        0.9,
+        0.5,
+        0.1,
+    )
 
     environ = Env(actions, rules, agent, model)
     environ.run(300, moreFeature)
