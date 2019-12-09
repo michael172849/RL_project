@@ -36,7 +36,7 @@ class State():
     self.activity: user's current activity. "start" to indicate the start of the day. Is unique in the datamodel
     self.duration: if mean for duration is 0, it is an "event" where the activity that takes no time, like waking up
     """
-    def __init__(self, activity, location="", duration=10*60, duration_sigma=60*30):
+    def __init__(self, activity, location="", duration=3*60, duration_sigma=60*30):
         self.transitions = []
         self.transition_weights = np.array([])
         # self.next_activities = []    # dictionary of possible next activity and their occurrences
@@ -188,16 +188,16 @@ class DataModel():
             home_bathroom_state = State("PersonalGrooming", "home_bathroom", 7*60, 30)
             breakfast_state = State("Breakfast", "home_kitchen", 30*60, 60)
 
-            morning_work_state = State("MorningWork", "Office/Workplace", 3*60*60)
-            evening_work_state = State("EveningWork", "Office/Workplace", 5*60*60)
+            morning_work_state = State("MorningWork", "Office", 3*60*60)
+            evening_work_state = State("AfternoonWork", "Office", 5*60*60)
 
-            lunch_outside_state = State("Lunch", "Restaurant", 1*60*60)
-            lunch_home_state = State("Lunch", "home", 1*60*60)
+            lunch_outside_state = State("LunchOutside", "Restaurant", 1*60*60)
+            lunch_home_state = State("LunchAtHome", "home_kitchen", 1*60*60)
 
             housework_livingroom_state = State("Housework", "home_livingroom", 2*60*60)
 
-            socializing_home_state = State("Socializing", "home_study", 30*60, 10*60)
-            socializing_outside_state = State("Socializing", "Building", 4*60*60)
+            socializing_home_state = State("SocializingAtHome", "home_study", 30*60, 10*60)
+            socializing_outside_state = State("SocializingOutside", "Building", 4*60*60)
             
             dinner_state = State("Dinner", "Restaurant", 2*60*60)
             deskwork_state = State("Deskwork", "home_study", 1*60*60)
