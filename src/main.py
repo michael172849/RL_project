@@ -6,7 +6,6 @@ from agents.agent import Agent
 from agents.n_sarsa_agent import nSarsaAgent
 from agents.e_trace_agent import ETraceAgent
 from agents.tc_q import QFuncMixed
-from agents.nn_q import QModelWithNN
 from rules.seqRule import SeqRule
 from rules.ovenRule import OvenRule
 from dataModel import DataModel
@@ -62,7 +61,6 @@ def main(moreFeature=False, option="oven"):
         nA = len(actions) * 2
         low, high = model.get_cont_low_high()
         q_f = QFuncMixed(low, high, nL, nA, 5, np.array([4800]))
-    # nn_f = QModelWithNN(low, high, nL, nA, 0.001)
     if "sarsa" in option:
         agent = nSarsaAgent(
             actions,
@@ -99,6 +97,14 @@ def baseline():
     env = BaselineEnv(actions, rules, model)
     env.run(500)
 if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print('Please provide option in one string. Execute the code like:  python3 main.py \"oven coffee etrace extraFeature\"')
+        print('Avaiable options are:')
+        print('oven: enable oven rule')
+        print('coffee: enable coffee rule')
+        print('etrace/sarsa: use n-step-sarsa algorithm or eligibility trace')
+        print('extraFeature: enable extra features to make better predictions')
+        exit(1)
     option = sys.argv[1]
     main("extraFeature" in option, option)
     # baseline()
