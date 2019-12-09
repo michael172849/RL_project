@@ -10,25 +10,25 @@ from agents.nn_q import QModelWithNN
 from rules.seqRule import SeqRule
 from rules.ovenRule import OvenRule
 from dataModel import DataModel
-
-def main(moreFeature=False):
+import sys
+def main(moreFeature=False, option="oven"):
     actions = []
     rules = []
-    # actions.append(TempAction(
-    #     name = 'preheat',
-    #     time_cost=300
-    # ))
-    actions.append(TempAction(
+    ovenAction = TempAction(
+        name = 'preheat',
+        time_cost=300
+    )
+    coffeeAction = TempAction(
         name = 'coffee',
         time_cost=300
-    ))
+    )
     ovenSequence = [[{'loc_cate':'home_bed', 'act_truth':'Sleeping'}],
                     [{'loc_cate':'home_kitchen', 'act_truth':'Breakfast'}],]
     ovenRule = SeqRule(
         ovenSequence,
         200.,
         0.5,
-        actions[0],
+        ovenAction,
         seqWaitTime=1500,
         name="OvenRule",
     )
@@ -38,13 +38,16 @@ def main(moreFeature=False):
         coffeeSequence,
         200.,
         0.5,
-        actions[0],
+        coffeeAction,
         seqWaitTime=3600,
         name="CoffeeRule",
     )
-
-    rules.append(coffeeRule)
-    # rules.append(ovenRule)
+    if "oven" in option:
+        actions.append(ovenAction)
+        rules.append(ovenRule)
+    if "coffee" in option:
+        actions.append(coffeeAction)
+        rules.append(coffeeRule)
     model = DataModel("coffee_guy")
     if moreFeature:
         nL = [model.get_num_locations(), model.get_num_locations()]
@@ -60,20 +63,22 @@ def main(moreFeature=False):
         low, high = model.get_cont_low_high()
         q_f = QFuncMixed(low, high, nL, nA, 5, np.array([4800]))
     # nn_f = QModelWithNN(low, high, nL, nA, 0.001)
-    agent = nSarsaAgent(
-        actions,
-        q_f,
-        10,
-        0.9,
-        0.1,
-    )
-    agent = ETraceAgent(
-        actions,
-        q_f,
-        0.9,
-        0.5,
-        0.1,
-    )
+    if "sarsa" in option:
+        agent = nSarsaAgent(
+            actions,
+            q_f,
+            10,
+            0.9,
+            0.1,
+        )
+    if "etrace" in option:
+        agent = ETraceAgent(
+            actions,
+            q_f,
+            0.9,
+            0.5,
+            0.1,
+        )
 
     environ = Env(actions, rules, agent, model)
     environ.run(300, moreFeature)
@@ -94,5 +99,6 @@ def baseline():
     env = BaselineEnv(actions, rules, model)
     env.run(500)
 if __name__ == "__main__":
-    main(True)
+    option = sys.argv[1]
+    main("extraFeature" in option, option)
     # baseline()
