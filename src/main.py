@@ -13,14 +13,14 @@ import sys
 def main(moreFeature=False, option="oven"):
     actions = []
     rules = []
-    actions.append(TempAction(
+    ovenAction = TempAction(
         name = 'preheat',
         time_cost=300
-    ))
-    # actions.append(TempAction(
-    #     name = 'coffee',
-    #     time_cost=300
-    # ))
+    )
+    coffeeAction = TempAction(
+        name = 'coffee',
+        time_cost=300
+    )
     ovenSequence = [[{'loc_cate':'home_bed', 'act_truth':'Sleeping'}],
                     [{'loc_cate':'home_kitchen', 'act_truth':'Breakfast'}],]
     ovenRule = SeqRule(
@@ -41,7 +41,6 @@ def main(moreFeature=False, option="oven"):
         seqWaitTime=3600,
         name="CoffeeRule",
     )
-
     if "oven" in option:
         actions.append(ovenAction)
         rules.append(ovenRule)
