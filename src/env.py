@@ -65,6 +65,7 @@ class Env():
         print(output_filename)
 
         self.moreFeature = True
+        day_returns = []
         for i in range(days):
             file = open(output_filename, 'a')
             self.reset()
@@ -73,7 +74,7 @@ class Env():
             self.act_start = self.state['time']
             self.feat = self.get_feat_from_state(self.state, moreFeature)
             a = self.agent.getAction(self.feat)
-            actions = [a['id']]
+            # actions = [a['id']]
             locs = [self.state['loc_cate']]
             self.rules_set = np.zeros(len(self.rules))
             while not self.done:
@@ -96,16 +97,17 @@ class Env():
 
                 a = self.agent.update(self.feat, r,a, sp_feat)
                 # print(s_p['loc_cate'], self.model.get_cont_cate(s_p)[1])
-                actions.append(a['id'])
+                # actions.append(a['id'])
                 self.state =s_p
                 self.feat = sp_feat
+            day_returns.append(r_s)
             print ("Return:{}!!!".format(r_s))
-
             file.write(str(r_s) + "\n")
-            
-            if 0 in self.rules_set:
+
+            if r_s<0:
                 print(locs)
             self.agent.finishEpisode(self.feat)
         
             file.close()
+        print(day_returns)
     
