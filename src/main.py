@@ -61,6 +61,7 @@ def main(days = 300, moreFeature=False, option="oven"):
         nA = len(actions) * 2
         low, high = model.get_cont_low_high()
         q_f = QFuncMixed(low, high, nL, nA, 5, np.array([4800]))
+    agent = Agent(actions)
     if "sarsa" in option:
         agent = nSarsaAgent(
             actions,
@@ -106,5 +107,5 @@ if __name__ == "__main__":
         print('extraFeature: enable extra features to make better predictions')
         exit(1)
     option = sys.argv[1]
-    main("extraFeature" in option, option)
+    main(moreFeature="extraFeature" in option, option=option)
     # baseline()

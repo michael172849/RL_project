@@ -37,7 +37,7 @@ class TempAction(Action):
     def isReady(self, state):
         # print (self.cur_temp, state['time'])
         if self.cur_temp >= self.set_temp:
-            print ("Finish" + sec_to_str(state['time']))
+            print ("Finish " + self.name  + " at " + sec_to_str(state['time']))
             return True
         else:
             return False
