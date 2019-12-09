@@ -10,7 +10,7 @@ from rules.seqRule import SeqRule
 from rules.ovenRule import OvenRule
 from dataModel import DataModel
 import sys
-def main(moreFeature=False, option="oven"):
+def main(days = 300, moreFeature=False, option="oven"):
     actions = []
     rules = []
     ovenAction = TempAction(
@@ -79,7 +79,7 @@ def main(moreFeature=False, option="oven"):
         )
 
     environ = Env(actions, rules, agent, model)
-    environ.run(300, moreFeature)
+    environ.run(days, moreFeature)
     
 def baseline():
     actions = []
