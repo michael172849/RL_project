@@ -1,6 +1,6 @@
 from deviceAction.action import Action
 from util import sec_to_str
-class OvenAction(Action):
+class TempAction(Action):
     # define a device action like turn on the coffee machine.
     # We assume one device have one action
 
