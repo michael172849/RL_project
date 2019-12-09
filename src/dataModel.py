@@ -9,7 +9,7 @@ class Duration():
     """
     Time a user spends in one state. Determined by Log-normal Distribution
     """
-    def __init__(self, mu, sigma=60*30):
+    def __init__(self, mu, sigma=60):
         if mu != 0:
             normal_std = np.sqrt(np.log(1 + (sigma/mu)**2))
             normal_mean = np.log(mu) - normal_std**2 / 2
@@ -106,7 +106,7 @@ class Transition():   # @TODO make street separate class
             elif seconds > self.duration_seconds - 5 * 60:
                 return self.from_state.location
             else:
-                return State("Street", "Street").location
+                return "Street"
         else:
             if seconds < self.duration_seconds / 2:
                 return self.to_state.location
@@ -209,12 +209,12 @@ class DataModel():
 
             wake_up_state.add_next_state(home_bathroom_state, 10, 9, 4)
             home_bathroom_state.add_next_state(breakfast_state, 60, 9, 10)
-            breakfast_state.add_next_state(morning_work_state, 30*60, 5)   # weekdays. takes 30min to commute to work
-            breakfast_state.add_next_state(housework_livingroom_state, 60, 2)    # weekends.
+            breakfast_state.add_next_state(morning_work_state, 30*60, 5, 10)   # weekdays. takes 30min to commute to work
+            breakfast_state.add_next_state(housework_livingroom_state, 60, 2, 10)    # weekends.
 
-            housework_livingroom_state.add_next_state(lunch_home_state, 60, 2)
+            housework_livingroom_state.add_next_state(lunch_home_state, 60, 2, 10)
             lunch_home_state.add_next_state(evening_work_state, 30*60,3)
-            lunch_home_state.add_next_state(socializing_outside_state, 20*60, 0)
+            lunch_home_state.add_next_state(socializing_outside_state, 20*60, 0, 5*60)
 
             morning_work_state.add_next_state(lunch_outside_state, 15*60, 13) # takes 15min to go to lunch
             morning_work_state.add_next_state(lunch_home_state, 30*60, 3) # takes 30min to go to home to have lunch
@@ -226,10 +226,10 @@ class DataModel():
             dinner_state.add_next_state(socializing_home_state, 40*60, 3)
             dinner_state.add_next_state(deskwork_state, 40*60, 4)
 
-            deskwork_state.add_next_state(bath_state, 100, 3)
-            socializing_home_state.add_next_state(bath_state, 100, 4)
+            deskwork_state.add_next_state(bath_state, 100, 3, 10)
+            socializing_home_state.add_next_state(bath_state, 100, 4, 10)
 
-            bath_state.add_next_state(going_to_bed_state, 100, 4)
+            bath_state.add_next_state(going_to_bed_state, 100, 4, 10)
 
             # add to state list
             self.s = [sleep_state, wake_up_state, home_bathroom_state,

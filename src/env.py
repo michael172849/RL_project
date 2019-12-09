@@ -103,7 +103,7 @@ class Env():
 
             file.write(str(r_s) + "\n")
             
-            if r_s<0:
+            if 0 in self.rules_set:
                 print(locs)
             self.agent.finishEpisode(self.feat)
         
