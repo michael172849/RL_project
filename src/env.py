@@ -58,16 +58,10 @@ class Env():
         else:
             return self.model.get_cont_cate(self.state)
     def run(self, days, moreFeature=False):
-        # write output to a file
-        output_filename = '_'.join([r.name for r in self.rules])
-        output_filename += '.out'
-
-        print(output_filename)
 
         self.moreFeature = True
         day_returns = []
         for i in range(days):
-            file = open(output_filename, 'a')
             self.reset()
             r_s = 0
             print("======Day {}====================================================================".format(i))
@@ -102,10 +96,9 @@ class Env():
                 self.feat = sp_feat
             day_returns.append(r_s)
             print ("Return:{}!!!".format(r_s))
-            file.write(str(r_s) + "\n")
-            print(locs)
+            if r_s<0:
+                print(locs)
             self.agent.finishEpisode(self.feat)
         
-            file.close()
         print(day_returns)
     
