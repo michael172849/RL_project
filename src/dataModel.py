@@ -214,7 +214,7 @@ class DataModel():
 
             housework_livingroom_state.add_next_state(lunch_home_state, 60, 2)
             lunch_home_state.add_next_state(evening_work_state, 30*60,3)
-            lunch_home_state.add_next_state(socializing_outside_state, 20*60, 1)
+            lunch_home_state.add_next_state(socializing_outside_state, 20*60, 0)
 
             morning_work_state.add_next_state(lunch_outside_state, 15*60, 13) # takes 15min to go to lunch
             morning_work_state.add_next_state(lunch_home_state, 30*60, 3) # takes 30min to go to home to have lunch
