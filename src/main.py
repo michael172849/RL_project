@@ -15,11 +15,13 @@ def main(days = 300, moreFeature=False, option="oven"):
     rules = []
     ovenAction = TempAction(
         name = 'preheat',
-        time_cost=300
+        time_cost=300,
+        step_cost=-1.5,
     )
     coffeeAction = TempAction(
         name = 'coffee',
-        time_cost=300
+        time_cost=300,
+        step_cost=-1.5,
     )
     ovenSequence = [[{'loc_cate':'home_bed', 'act_truth':'Sleeping'}],
                     [{'loc_cate':'home_kitchen', 'act_truth':'Breakfast'}],]
@@ -107,5 +109,5 @@ if __name__ == "__main__":
         print('extraFeature: enable extra features to make better predictions')
         exit(1)
     option = sys.argv[1]
-    main(moreFeature="extraFeature" in option, option=option)
+    main(days = 200, moreFeature="extraFeature" in option, option=option)
     # baseline()
