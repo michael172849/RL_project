@@ -14,10 +14,10 @@ from dataModel import DataModel
 def main(moreFeature=False):
     actions = []
     rules = []
-    actions.append(TempAction(
-        name = 'preheat',
-        time_cost=300
-    ))
+    # actions.append(TempAction(
+    #     name = 'preheat',
+    #     time_cost=300
+    # ))
     actions.append(TempAction(
         name = 'coffee',
         time_cost=300
@@ -38,13 +38,13 @@ def main(moreFeature=False):
         coffeeSequence,
         200.,
         0.5,
-        actions[1],
-        seqWaitTime=1500,
+        actions[0],
+        seqWaitTime=3600,
         name="CoffeeRule",
     )
 
     rules.append(coffeeRule)
-    rules.append(ovenRule)
+    # rules.append(ovenRule)
     model = DataModel("coffee_guy")
     if moreFeature:
         nL = [model.get_num_locations(), model.get_num_locations()]
