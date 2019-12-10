@@ -1,5 +1,6 @@
-# Project for Reinforcement Learning CS394R
-## Facilitating Delayed-effect Requests on Trigger-ActionProgramming Frameworks
+
+# Facilitating Delayed-effect Requests on Trigger-ActionProgramming Frameworks
+## Project for Reinforcement Learning CS394R
 ## Group Member: Jie Hua(jh67336), Sangsu Lee(sl44566)
 
 ### Dependencies:
