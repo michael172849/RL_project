@@ -1,0 +1,1000 @@
+['home_bathroom', 'Office', 'home_bed', 'Building', 'home_livingroom', 'home_study', 'home_bedroom', 'Restaurant', 'home_kitchen', 'Street']
+CoffeeRule.out
+======Day 0====================================================================
+CoffeeRule met at time:11:49:0
+Finish coffee at 11:55:30
+Return:-105.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 1====================================================================
+CoffeeRule met at time:12:22:30
+Finish coffee at 12:23:0
+Return:96.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 2====================================================================
+CoffeeRule met at time:12:43:0
+Finish coffee at 12:43:30
+Return:138.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 3====================================================================
+CoffeeRule met at time:12:39:30
+Finish coffee at 12:40:0
+Return:146.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 4====================================================================
+CoffeeRule met at time:13:59:30
+Finish coffee at 14:8:30
+Return:-337.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 5====================================================================
+CoffeeRule met at time:14:51:30
+Finish coffee at 14:52:0
+Return:7.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 6====================================================================
+CoffeeRule met at time:12:41:0
+Finish coffee at 12:41:30
+Return:-38.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 7====================================================================
+CoffeeRule met at time:15:7:0
+Return:-533.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street']
+======Day 8====================================================================
+CoffeeRule met at time:13:53:30
+Finish coffee at 13:54:0
+Return:-30.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 9====================================================================
+CoffeeRule met at time:14:53:30
+Finish coffee at 14:54:0
+Return:-13.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 10====================================================================
+CoffeeRule met at time:12:26:0
+Finish coffee at 12:34:30
+Return:-358.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 11====================================================================
+CoffeeRule met at time:13:40:0
+Finish coffee at 13:40:30
+Return:-184.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 12====================================================================
+CoffeeRule met at time:14:53:30
+Finish coffee at 14:54:0
+Return:-20.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 13====================================================================
+CoffeeRule met at time:16:19:30
+Finish coffee at 16:27:30
+Return:-379.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant']
+======Day 14====================================================================
+CoffeeRule met at time:16:5:0
+Finish coffee at 16:5:30
+Return:-76.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 15====================================================================
+CoffeeRule met at time:13:25:30
+Finish coffee at 13:26:0
+Return:-170.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 16====================================================================
+CoffeeRule met at time:12:26:0
+Finish coffee at 12:26:30
+Return:-272.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 17====================================================================
+CoffeeRule met at time:14:3:0
+Finish coffee at 14:3:30
+Return:-203.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 18====================================================================
+CoffeeRule met at time:14:44:30
+Finish coffee at 14:45:0
+Return:-211.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 19====================================================================
+CoffeeRule met at time:14:14:0
+Finish coffee at 14:14:30
+Return:-175.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 20====================================================================
+CoffeeRule met at time:14:44:30
+Finish coffee at 14:45:0
+Return:-210.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 21====================================================================
+CoffeeRule met at time:12:42:0
+Finish coffee at 12:42:30
+Return:-234.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 22====================================================================
+CoffeeRule met at time:12:19:30
+Finish coffee at 12:20:0
+Return:-221.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 23====================================================================
+CoffeeRule met at time:14:34:30
+Finish coffee at 14:35:0
+Return:-228.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 24====================================================================
+CoffeeRule met at time:13:0:0
+Finish coffee at 13:0:30
+Return:-251.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 25====================================================================
+CoffeeRule met at time:12:22:30
+Finish coffee at 12:23:0
+Return:-292.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 26====================================================================
+CoffeeRule met at time:15:17:30
+Finish coffee at 15:18:0
+Return:-231.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 27====================================================================
+CoffeeRule met at time:13:59:0
+Finish coffee at 13:59:30
+Return:-174.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 28====================================================================
+CoffeeRule met at time:13:23:30
+Finish coffee at 13:24:0
+Return:-186.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 29====================================================================
+CoffeeRule met at time:12:6:0
+Finish coffee at 12:6:30
+Return:-259.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 30====================================================================
+CoffeeRule met at time:12:44:30
+Finish coffee at 12:45:0
+Return:-254.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 31====================================================================
+CoffeeRule met at time:14:28:0
+Finish coffee at 14:28:30
+Return:-128.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 32====================================================================
+CoffeeRule met at time:13:25:0
+Finish coffee at 13:25:30
+Return:-184.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 33====================================================================
+CoffeeRule met at time:14:32:0
+Finish coffee at 14:32:30
+Return:-252.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 34====================================================================
+CoffeeRule met at time:12:17:30
+Finish coffee at 12:18:0
+Return:-221.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 35====================================================================
+CoffeeRule met at time:15:47:0
+Finish coffee at 15:47:30
+Return:-192.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant']
+======Day 36====================================================================
+CoffeeRule met at time:13:59:30
+Finish coffee at 14:0:0
+Return:-225.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 37====================================================================
+CoffeeRule met at time:11:44:30
+Finish coffee at 11:45:0
+Return:-214.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 38====================================================================
+CoffeeRule met at time:13:34:30
+Finish coffee at 13:35:0
+Return:-169.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 39====================================================================
+CoffeeRule met at time:14:36:0
+Finish coffee at 14:36:30
+Return:-262.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 40====================================================================
+CoffeeRule met at time:13:54:0
+Finish coffee at 13:54:30
+Return:-198.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 41====================================================================
+CoffeeRule met at time:14:2:30
+Finish coffee at 14:3:0
+Return:-181.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 42====================================================================
+CoffeeRule met at time:14:7:30
+Finish coffee at 14:8:0
+Return:-247.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 43====================================================================
+CoffeeRule met at time:14:8:30
+Finish coffee at 14:9:0
+Return:-181.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 44====================================================================
+CoffeeRule met at time:13:36:0
+Finish coffee at 13:36:30
+Return:-187.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 45====================================================================
+CoffeeRule met at time:13:26:0
+Finish coffee at 13:26:30
+Return:-235.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 46====================================================================
+CoffeeRule met at time:12:22:30
+Finish coffee at 12:23:0
+Return:-244.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 47====================================================================
+CoffeeRule met at time:13:57:30
+Finish coffee at 13:58:0
+Return:-151.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 48====================================================================
+CoffeeRule met at time:13:32:30
+Finish coffee at 13:33:0
+Return:-193.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 49====================================================================
+CoffeeRule met at time:12:51:30
+Finish coffee at 12:52:0
+Return:-177.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 50====================================================================
+CoffeeRule met at time:12:17:0
+Finish coffee at 12:17:30
+Return:-268.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 51====================================================================
+CoffeeRule met at time:13:1:0
+Finish coffee at 13:1:30
+Return:-246.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 52====================================================================
+CoffeeRule met at time:13:59:0
+Finish coffee at 13:59:30
+Return:-235.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 53====================================================================
+CoffeeRule met at time:13:1:30
+Finish coffee at 13:2:0
+Return:-248.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 54====================================================================
+CoffeeRule met at time:13:36:30
+Finish coffee at 13:37:0
+Return:-187.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 55====================================================================
+CoffeeRule met at time:14:14:30
+Finish coffee at 14:15:0
+Return:-247.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 56====================================================================
+CoffeeRule met at time:14:24:30
+Finish coffee at 14:25:0
+Return:-94.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 57====================================================================
+CoffeeRule met at time:14:43:0
+Finish coffee at 14:43:30
+Return:-76.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 58====================================================================
+CoffeeRule met at time:14:15:30
+Finish coffee at 14:16:0
+Return:-108.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 59====================================================================
+CoffeeRule met at time:14:12:30
+Finish coffee at 14:13:0
+Return:-112.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 60====================================================================
+CoffeeRule met at time:15:21:0
+Finish coffee at 15:21:30
+Return:-98.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 61====================================================================
+CoffeeRule met at time:14:34:0
+Finish coffee at 14:34:30
+Return:-112.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 62====================================================================
+CoffeeRule met at time:13:1:30
+Finish coffee at 13:10:0
+Return:-433.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 63====================================================================
+CoffeeRule met at time:12:41:0
+Finish coffee at 12:41:30
+Return:-250.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 64====================================================================
+CoffeeRule met at time:12:17:0
+Finish coffee at 12:17:30
+Return:-262.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 65====================================================================
+CoffeeRule met at time:13:25:0
+Finish coffee at 13:25:30
+Return:-235.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 66====================================================================
+CoffeeRule met at time:13:5:30
+Finish coffee at 13:6:0
+Return:-213.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 67====================================================================
+CoffeeRule met at time:14:3:30
+Finish coffee at 14:4:0
+Return:-158.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 68====================================================================
+CoffeeRule met at time:13:5:30
+Finish coffee at 13:6:0
+Return:-252.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 69====================================================================
+CoffeeRule met at time:13:38:30
+Finish coffee at 13:39:0
+Return:-202.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 70====================================================================
+CoffeeRule met at time:15:5:30
+Finish coffee at 15:6:0
+Return:-158.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 71====================================================================
+CoffeeRule met at time:12:18:30
+Finish coffee at 12:19:0
+Return:-206.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 72====================================================================
+CoffeeRule met at time:15:10:0
+Finish coffee at 15:10:30
+Return:-82.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 73====================================================================
+CoffeeRule met at time:12:9:0
+Finish coffee at 12:9:30
+Return:-204.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 74====================================================================
+CoffeeRule met at time:13:12:30
+Finish coffee at 13:13:0
+Return:-202.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 75====================================================================
+CoffeeRule met at time:13:38:0
+Finish coffee at 13:38:30
+Return:-248.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 76====================================================================
+CoffeeRule met at time:13:42:30
+Finish coffee at 13:43:0
+Return:-157.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 77====================================================================
+CoffeeRule met at time:12:44:30
+Finish coffee at 12:45:0
+Return:-244.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 78====================================================================
+CoffeeRule met at time:12:24:30
+Finish coffee at 12:25:0
+Return:-262.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 79====================================================================
+CoffeeRule met at time:13:56:30
+Finish coffee at 13:57:0
+Return:-255.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 80====================================================================
+CoffeeRule met at time:13:1:0
+Finish coffee at 13:1:30
+Return:-220.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 81====================================================================
+CoffeeRule met at time:12:1:30
+Finish coffee at 12:2:0
+Return:-250.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 82====================================================================
+CoffeeRule met at time:12:38:0
+Finish coffee at 12:38:30
+Return:-254.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 83====================================================================
+CoffeeRule met at time:14:13:0
+Finish coffee at 14:13:30
+Return:-223.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 84====================================================================
+CoffeeRule met at time:13:49:0
+Finish coffee at 13:49:30
+Return:-170.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 85====================================================================
+CoffeeRule met at time:14:53:0
+Finish coffee at 14:53:30
+Return:-123.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 86====================================================================
+CoffeeRule met at time:12:49:30
+Finish coffee at 12:50:0
+Return:-237.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 87====================================================================
+CoffeeRule met at time:13:5:30
+Finish coffee at 13:6:0
+Return:-213.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 88====================================================================
+CoffeeRule met at time:13:45:0
+Finish coffee at 13:45:30
+Return:-214.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 89====================================================================
+CoffeeRule met at time:13:44:30
+Finish coffee at 13:45:0
+Return:-154.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 90====================================================================
+CoffeeRule met at time:14:35:0
+Finish coffee at 14:35:30
+Return:-125.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 91====================================================================
+CoffeeRule met at time:13:12:0
+Finish coffee at 13:12:30
+Return:-203.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 92====================================================================
+CoffeeRule met at time:13:32:0
+Finish coffee at 13:32:30
+Return:-181.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 93====================================================================
+CoffeeRule met at time:14:45:30
+Finish coffee at 14:46:0
+Return:-156.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street']
+======Day 94====================================================================
+CoffeeRule met at time:15:21:30
+Finish coffee at 15:22:0
+Return:-48.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street']
+======Day 95====================================================================
+CoffeeRule met at time:12:24:30
+Finish coffee at 12:34:30
+Return:-529.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 96====================================================================
+CoffeeRule met at time:12:50:30
+Finish coffee at 12:51:0
+Return:-235.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 97====================================================================
+CoffeeRule met at time:13:31:0
+Finish coffee at 13:31:30
+Return:-226.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 98====================================================================
+CoffeeRule met at time:13:48:0
+Finish coffee at 13:48:30
+Return:-149.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 99====================================================================
+CoffeeRule met at time:13:31:0
+Finish coffee at 13:31:30
+Return:-175.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 100====================================================================
+CoffeeRule met at time:12:6:0
+Finish coffee at 12:6:30
+Return:-283.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 101====================================================================
+CoffeeRule met at time:13:0:30
+Finish coffee at 13:1:0
+Return:-220.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 102====================================================================
+CoffeeRule met at time:11:7:30
+Return:-702.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 103====================================================================
+CoffeeRule met at time:14:22:0
+Finish coffee at 14:22:30
+Return:-391.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 104====================================================================
+CoffeeRule met at time:15:50:30
+Finish coffee at 15:51:0
+Return:-256.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 105====================================================================
+CoffeeRule met at time:12:49:30
+Finish coffee at 12:50:0
+Return:-237.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 106====================================================================
+CoffeeRule met at time:11:20:0
+Finish coffee at 11:20:30
+Return:-219.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 107====================================================================
+CoffeeRule met at time:14:57:0
+Finish coffee at 14:57:30
+Return:-352.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 108====================================================================
+CoffeeRule met at time:12:53:30
+Finish coffee at 12:54:0
+Return:-417.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 109====================================================================
+CoffeeRule met at time:13:20:0
+Finish coffee at 13:20:30
+Return:-385.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 110====================================================================
+CoffeeRule met at time:12:23:0
+Finish coffee at 12:23:30
+Return:-365.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 111====================================================================
+CoffeeRule met at time:13:15:30
+Finish coffee at 13:16:0
+Return:-412.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 112====================================================================
+CoffeeRule met at time:11:13:30
+Finish coffee at 11:14:0
+Return:-233.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 113====================================================================
+CoffeeRule met at time:13:30:30
+Finish coffee at 13:31:0
+Return:-404.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 114====================================================================
+CoffeeRule met at time:13:6:0
+Finish coffee at 13:6:30
+Return:-337.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 115====================================================================
+CoffeeRule met at time:13:54:0
+Finish coffee at 13:54:30
+Return:-367.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 116====================================================================
+CoffeeRule met at time:14:40:30
+Finish coffee at 14:41:0
+Return:-351.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 117====================================================================
+CoffeeRule met at time:12:28:0
+Finish coffee at 12:28:30
+Return:-277.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 118====================================================================
+CoffeeRule met at time:11:46:0
+Finish coffee at 11:46:30
+Return:-290.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 119====================================================================
+CoffeeRule met at time:14:35:30
+Finish coffee at 14:36:0
+Return:-203.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 120====================================================================
+CoffeeRule met at time:12:39:0
+Finish coffee at 12:39:30
+Return:-404.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 121====================================================================
+CoffeeRule met at time:15:26:30
+Finish coffee at 15:27:0
+Return:-359.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 122====================================================================
+CoffeeRule met at time:12:30:30
+Finish coffee at 12:31:0
+Return:-332.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 123====================================================================
+CoffeeRule met at time:13:53:0
+Finish coffee at 13:53:30
+Return:-376.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 124====================================================================
+CoffeeRule met at time:15:6:0
+Finish coffee at 15:6:30
+Return:-277.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 125====================================================================
+CoffeeRule met at time:13:18:30
+Finish coffee at 13:19:0
+Return:-325.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 126====================================================================
+CoffeeRule met at time:14:6:0
+Finish coffee at 14:6:30
+Return:-396.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 127====================================================================
+CoffeeRule met at time:13:1:0
+Finish coffee at 13:1:30
+Return:-387.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 128====================================================================
+CoffeeRule met at time:12:51:0
+Finish coffee at 12:51:30
+Return:-414.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 129====================================================================
+CoffeeRule met at time:15:30:0
+Finish coffee at 15:30:30
+Return:-308.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 130====================================================================
+CoffeeRule met at time:12:23:0
+Finish coffee at 12:23:30
+Return:-217.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 131====================================================================
+CoffeeRule met at time:11:10:30
+Finish coffee at 11:11:0
+Return:-257.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 132====================================================================
+CoffeeRule met at time:11:58:0
+Finish coffee at 11:58:30
+Return:-230.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 133====================================================================
+CoffeeRule met at time:11:59:30
+Finish coffee at 12:0:0
+Return:-274.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 134====================================================================
+CoffeeRule met at time:14:35:30
+Finish coffee at 14:36:0
+Return:-391.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 135====================================================================
+CoffeeRule met at time:14:1:0
+Finish coffee at 14:1:30
+Return:-130.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 136====================================================================
+CoffeeRule met at time:11:39:30
+Finish coffee at 11:40:0
+Return:-238.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 137====================================================================
+CoffeeRule met at time:12:52:30
+Finish coffee at 12:53:0
+Return:-304.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 138====================================================================
+CoffeeRule met at time:12:44:0
+Finish coffee at 12:44:30
+Return:-337.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 139====================================================================
+CoffeeRule met at time:14:15:30
+Finish coffee at 14:16:0
+Return:-338.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street']
+======Day 140====================================================================
+CoffeeRule met at time:12:24:30
+Finish coffee at 12:25:0
+Return:-209.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 141====================================================================
+CoffeeRule met at time:13:5:30
+Finish coffee at 13:6:0
+Return:-377.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 142====================================================================
+CoffeeRule met at time:12:54:30
+Finish coffee at 12:55:0
+Return:-248.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 143====================================================================
+CoffeeRule met at time:14:33:30
+Finish coffee at 14:34:0
+Return:-395.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 144====================================================================
+CoffeeRule met at time:14:31:30
+Finish coffee at 14:32:0
+Return:-277.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street']
+======Day 145====================================================================
+CoffeeRule met at time:11:23:0
+Finish coffee at 11:23:30
+Return:-275.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 146====================================================================
+CoffeeRule met at time:14:19:0
+Finish coffee at 14:19:30
+Return:-286.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 147====================================================================
+CoffeeRule met at time:14:8:0
+Finish coffee at 14:8:30
+Return:-312.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 148====================================================================
+CoffeeRule met at time:13:10:30
+Finish coffee at 13:11:0
+Return:-346.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 149====================================================================
+CoffeeRule met at time:13:26:0
+Finish coffee at 13:26:30
+Return:-278.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 150====================================================================
+CoffeeRule met at time:13:54:30
+Finish coffee at 13:55:0
+Return:-283.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 151====================================================================
+CoffeeRule met at time:14:46:0
+Finish coffee at 14:46:30
+Return:-325.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 152====================================================================
+CoffeeRule met at time:12:10:0
+Finish coffee at 12:10:30
+Return:-184.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 153====================================================================
+CoffeeRule met at time:15:7:0
+Finish coffee at 15:7:30
+Return:-159.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 154====================================================================
+CoffeeRule met at time:13:46:30
+Finish coffee at 13:47:0
+Return:-318.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 155====================================================================
+CoffeeRule met at time:14:30:30
+Finish coffee at 14:31:0
+Return:-229.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 156====================================================================
+CoffeeRule met at time:13:10:0
+Finish coffee at 13:10:30
+Return:-331.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 157====================================================================
+CoffeeRule met at time:14:9:0
+Finish coffee at 14:9:30
+Return:-328.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 158====================================================================
+CoffeeRule met at time:14:30:0
+Finish coffee at 14:30:30
+Return:-259.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 159====================================================================
+CoffeeRule met at time:13:1:0
+Finish coffee at 13:1:30
+Return:-289.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 160====================================================================
+CoffeeRule met at time:11:41:0
+Finish coffee at 11:41:30
+Return:-266.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 161====================================================================
+CoffeeRule met at time:14:8:0
+Finish coffee at 14:8:30
+Return:-247.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 162====================================================================
+CoffeeRule met at time:12:46:30
+Finish coffee at 12:47:0
+Return:-241.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 163====================================================================
+CoffeeRule met at time:13:15:0
+Finish coffee at 13:15:30
+Return:-307.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 164====================================================================
+CoffeeRule met at time:12:9:30
+Finish coffee at 12:10:0
+Return:-300.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 165====================================================================
+CoffeeRule met at time:11:12:30
+Finish coffee at 11:13:0
+Return:-211.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 166====================================================================
+CoffeeRule met at time:13:19:30
+Finish coffee at 13:20:0
+Return:-379.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 167====================================================================
+CoffeeRule met at time:12:41:0
+Finish coffee at 12:41:30
+Return:-308.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 168====================================================================
+CoffeeRule met at time:15:46:0
+Finish coffee at 15:46:30
+Return:-295.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 169====================================================================
+CoffeeRule met at time:15:8:0
+Finish coffee at 15:8:30
+Return:-268.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 170====================================================================
+CoffeeRule met at time:14:15:30
+Finish coffee at 14:16:0
+Return:-318.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 171====================================================================
+CoffeeRule met at time:13:49:30
+Finish coffee at 13:50:0
+Return:-275.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 172====================================================================
+CoffeeRule met at time:12:48:0
+Finish coffee at 12:48:30
+Return:-239.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 173====================================================================
+CoffeeRule met at time:13:32:0
+Finish coffee at 13:32:30
+Return:-357.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 174====================================================================
+CoffeeRule met at time:13:57:30
+Finish coffee at 13:58:0
+Return:-309.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 175====================================================================
+CoffeeRule met at time:12:31:0
+Finish coffee at 12:31:30
+Return:-265.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 176====================================================================
+CoffeeRule met at time:12:24:0
+Finish coffee at 12:24:30
+Return:-355.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 177====================================================================
+CoffeeRule met at time:10:2:0
+Return:-672.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 178====================================================================
+CoffeeRule met at time:13:21:30
+Finish coffee at 13:22:0
+Return:-440.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 179====================================================================
+CoffeeRule met at time:14:10:0
+Finish coffee at 14:10:30
+Return:-403.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 180====================================================================
+CoffeeRule met at time:13:25:30
+Finish coffee at 13:26:0
+Return:-454.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 181====================================================================
+CoffeeRule met at time:14:23:30
+Finish coffee at 14:24:0
+Return:-408.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 182====================================================================
+CoffeeRule met at time:13:7:30
+Finish coffee at 13:8:0
+Return:-431.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 183====================================================================
+CoffeeRule met at time:13:25:0
+Finish coffee at 13:25:30
+Return:-457.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 184====================================================================
+CoffeeRule met at time:12:7:30
+Finish coffee at 12:8:0
+Return:-300.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 185====================================================================
+CoffeeRule met at time:12:59:30
+Finish coffee at 13:0:0
+Return:-405.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 186====================================================================
+CoffeeRule met at time:14:50:30
+Finish coffee at 14:51:0
+Return:-328.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 187====================================================================
+CoffeeRule met at time:13:31:0
+Finish coffee at 13:31:30
+Return:-483.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 188====================================================================
+CoffeeRule met at time:13:30:0
+Finish coffee at 13:30:30
+Return:-473.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 189====================================================================
+CoffeeRule met at time:11:25:0
+Finish coffee at 11:25:30
+Return:-294.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 190====================================================================
+CoffeeRule met at time:13:48:0
+Finish coffee at 13:48:30
+Return:-391.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 191====================================================================
+CoffeeRule met at time:12:41:0
+Finish coffee at 12:41:30
+Return:-444.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 192====================================================================
+CoffeeRule met at time:13:35:0
+Finish coffee at 13:35:30
+Return:-431.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 193====================================================================
+CoffeeRule met at time:14:12:30
+Finish coffee at 14:13:0
+Return:-445.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 194====================================================================
+CoffeeRule met at time:13:41:0
+Finish coffee at 13:41:30
+Return:-439.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 195====================================================================
+CoffeeRule met at time:11:47:30
+Finish coffee at 11:48:0
+Return:-309.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 196====================================================================
+CoffeeRule met at time:13:45:30
+Finish coffee at 13:46:0
+Return:-439.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 197====================================================================
+CoffeeRule met at time:12:4:30
+Finish coffee at 12:5:0
+Return:-452.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 198====================================================================
+CoffeeRule met at time:13:51:0
+Finish coffee at 13:51:30
+Return:-451.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 199====================================================================
+CoffeeRule met at time:13:10:0
+Finish coffee at 13:10:30
+Return:-487.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+[-105.25, 96.5, 138.5, 146.75, -337.0, 7.25, -38.5, -533.25, -30.25, -13.75, -358.75, -184.0, -20.5, -379.0, -76.75, -170.5, -272.5, -203.5, -211.0, -175.75, -210.25, -234.25, -221.5, -228.25, -251.5, -292.0, -231.25, -174.25, -186.25, -259.75, -254.5, -128.5, -184.0, -252.25, -221.5, -192.25, -225.25, -214.75, -169.75, -262.75, -198.25, -181.75, -247.75, -181.0, -187.75, -235.75, -244.75, -151.0, -193.75, -177.25, -268.0, -246.25, -235.75, -248.5, -187.0, -247.75, -94.75, -76.0, -108.25, -112.75, -98.5, -112.0, -433.75, -250.0, -262.75, -235.0, -213.25, -158.5, -252.25, -202.0, -158.5, -206.5, -82.75, -204.25, -202.75, -248.5, -157.75, -244.75, -262.75, -255.25, -220.0, -250.0, -254.5, -223.0, -170.5, -123.25, -237.25, -213.25, -214.0, -154.75, -125.5, -203.5, -181.75, -156.25, -48.25, -529.75, -235.75, -226.0, -149.5, -175.0, -283.75, -220.75, -702.0, -391.75, -256.0, -237.25, -219.25, -352.75, -417.25, -385.75, -365.5, -412.0, -233.5, -404.5, -337.75, -367.0, -351.25, -277.75, -290.5, -203.5, -404.5, -359.5, -332.5, -376.75, -277.75, -325.75, -396.25, -387.25, -414.25, -308.5, -217.75, -257.5, -230.5, -274.75, -391.75, -130.0, -238.75, -304.75, -337.0, -338.5, -209.5, -377.5, -248.5, -395.5, -277.0, -275.5, -286.0, -312.25, -346.0, -278.5, -283.0, -325.0, -184.75, -159.25, -318.25, -229.75, -331.0, -328.0, -259.75, -289.75, -266.5, -247.0, -241.75, -307.0, -300.25, -211.75, -379.0, -308.5, -295.0, -268.0, -318.25, -275.5, -239.5, -357.25, -309.25, -265.0, -355.75, -672.0, -440.5, -403.0, -454.75, -408.25, -431.5, -457.0, -300.25, -405.25, -328.75, -483.25, -473.5, -294.25, -391.0, -444.25, -431.5, -445.75, -439.75, -309.25, -439.0, -452.5, -451.75, -487.0]
