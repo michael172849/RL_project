@@ -709,3 +709,289 @@ OvenRule met at time:7:44:30
 Finish preheat at 7:45:0
 Return:186.5!!!
 ['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 143====================================================================
+OvenRule met at time:9:3:0
+Finish preheat at 9:3:30
+Return:191.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 144====================================================================
+OvenRule met at time:7:51:0
+Finish preheat at 7:51:30
+Return:178.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 145====================================================================
+OvenRule met at time:7:36:30
+Finish preheat at 7:37:0
+Return:142.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 146====================================================================
+OvenRule met at time:7:51:0
+Finish preheat at 7:51:30
+Return:190.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 147====================================================================
+OvenRule met at time:8:6:0
+Finish preheat at 8:6:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 148====================================================================
+OvenRule met at time:7:58:30
+Finish preheat at 7:59:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 149====================================================================
+OvenRule met at time:7:37:30
+Finish preheat at 7:38:0
+Return:162.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant']
+======Day 150====================================================================
+OvenRule met at time:8:24:0
+Finish preheat at 8:25:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 151====================================================================
+OvenRule met at time:7:44:0
+Finish preheat at 7:45:0
+Return:186.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 152====================================================================
+OvenRule met at time:8:20:30
+Finish preheat at 8:21:0
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 153====================================================================
+OvenRule met at time:7:37:30
+Finish preheat at 7:38:30
+Return:181.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 154====================================================================
+OvenRule met at time:8:2:30
+Finish preheat at 8:3:0
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 155====================================================================
+OvenRule met at time:7:46:0
+Finish preheat at 7:47:0
+Return:189.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 156====================================================================
+OvenRule met at time:7:57:30
+Finish preheat at 7:58:0
+Return:190.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 157====================================================================
+OvenRule met at time:8:38:30
+Finish preheat at 8:39:0
+Return:191.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 158====================================================================
+OvenRule met at time:7:22:0
+Finish preheat at 7:22:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 159====================================================================
+OvenRule met at time:8:19:0
+Finish preheat at 8:19:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 160====================================================================
+OvenRule met at time:8:3:0
+Finish preheat at 8:4:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 161====================================================================
+OvenRule met at time:9:12:0
+Finish preheat at 9:12:30
+Return:187.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 162====================================================================
+OvenRule met at time:8:40:30
+Finish preheat at 8:41:0
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 163====================================================================
+OvenRule met at time:7:48:30
+Finish preheat at 7:49:0
+Return:190.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 164====================================================================
+OvenRule met at time:9:0:0
+Finish preheat at 9:0:30
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 165====================================================================
+OvenRule met at time:8:12:30
+Finish preheat at 8:13:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 166====================================================================
+OvenRule met at time:7:44:30
+Finish preheat at 7:45:0
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 167====================================================================
+OvenRule met at time:8:21:30
+Finish preheat at 8:22:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 168====================================================================
+OvenRule met at time:7:28:0
+Finish preheat at 7:28:30
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 169====================================================================
+OvenRule met at time:8:0:30
+Finish preheat at 8:1:0
+Return:191.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 170====================================================================
+OvenRule met at time:8:1:0
+Finish preheat at 8:1:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 171====================================================================
+OvenRule met at time:7:38:0
+Finish preheat at 7:38:30
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 172====================================================================
+OvenRule met at time:7:59:30
+Finish preheat at 8:0:0
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 173====================================================================
+OvenRule met at time:8:39:30
+Finish preheat at 8:40:0
+Return:187.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 174====================================================================
+OvenRule met at time:8:38:0
+Finish preheat at 8:39:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 175====================================================================
+OvenRule met at time:8:6:0
+Finish preheat at 8:6:30
+Return:190.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 176====================================================================
+OvenRule met at time:8:54:30
+Finish preheat at 8:55:0
+Return:191.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 177====================================================================
+OvenRule met at time:8:5:30
+Finish preheat at 8:6:0
+Return:191.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 178====================================================================
+OvenRule met at time:7:52:0
+Finish preheat at 7:52:30
+Return:191.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 179====================================================================
+OvenRule met at time:7:40:0
+Finish preheat at 7:40:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 180====================================================================
+OvenRule met at time:7:58:0
+Finish preheat at 7:58:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 181====================================================================
+OvenRule met at time:8:31:30
+Finish preheat at 8:32:0
+Return:191.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 182====================================================================
+OvenRule met at time:7:35:0
+Finish preheat at 7:35:30
+Return:186.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 183====================================================================
+OvenRule met at time:8:26:30
+Finish preheat at 8:27:0
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 184====================================================================
+OvenRule met at time:7:49:30
+Finish preheat at 7:50:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 185====================================================================
+OvenRule met at time:8:15:30
+Finish preheat at 8:16:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 186====================================================================
+OvenRule met at time:9:11:30
+Finish preheat at 9:12:0
+Return:189.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 187====================================================================
+OvenRule met at time:8:9:0
+Finish preheat at 8:10:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 188====================================================================
+OvenRule met at time:7:28:30
+Finish preheat at 7:29:0
+Return:191.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 189====================================================================
+OvenRule met at time:8:23:0
+Finish preheat at 8:24:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 190====================================================================
+OvenRule met at time:8:20:30
+Finish preheat at 8:21:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 191====================================================================
+OvenRule met at time:8:32:0
+Finish preheat at 8:32:30
+Return:191.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 192====================================================================
+OvenRule met at time:7:21:30
+Finish preheat at 7:22:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 193====================================================================
+OvenRule met at time:8:55:0
+Finish preheat at 8:55:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 194====================================================================
+OvenRule met at time:8:36:0
+Finish preheat at 8:37:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 195====================================================================
+OvenRule met at time:8:11:0
+Finish preheat at 8:11:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 196====================================================================
+OvenRule met at time:8:43:0
+Finish preheat at 8:43:30
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 197====================================================================
+OvenRule met at time:9:2:30
+Finish preheat at 9:3:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 198====================================================================
+OvenRule met at time:8:4:30
+Finish preheat at 8:5:0
+Return:192.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 199====================================================================
+OvenRule met at time:7:52:0
+Finish preheat at 7:52:30
+Return:191.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+[-300.75, -331.5, -449.25, -322.5, -305.25, -336.75, -384.75, 11.75, 122.75, -144.25, 144.5, 175.25, 168.5, 161.75, 131.75, 185.0, 184.25, 176.0, 146.0, 181.25, 186.5, 107.0, 190.25, 190.25, 141.5, 185.75, 176.75, 188.75, 167.0, 185.75, 181.25, 161.75, 179.75, 188.0, 190.25, 188.0, 176.0, 190.25, 178.25, 192.5, 186.5, 161.0, 190.25, 189.5, 191.75, 191.75, 191.0, 188.0, 192.5, 191.75, 184.25, 191.0, 191.75, 185.75, 192.5, 184.25, 188.0, 185.75, 192.5, 190.25, 192.5, 191.0, 191.75, 192.5, 191.0, 190.25, 190.25, 186.5, 191.75, 188.75, 183.5, 191.0, 191.75, 190.25, 189.5, 189.5, 191.75, 192.5, 192.5, 182.0, 177.5, 192.5, 179.75, 192.5, 192.5, 192.5, 191.75, 162.5, 190.25, 177.5, 192.5, 192.5, 191.75, 188.75, 191.75, 192.5, 161.75, 191.0, 191.0, 191.0, 191.0, 191.0, 159.5, 192.5, 189.5, 192.5, 181.25, 182.0, 191.75, 191.75, 192.5, 190.25, 192.5, 182.75, 190.25, 191.0, 192.5, 185.0, 192.5, 192.5, 191.75, 186.5, 191.75, 188.75, 191.0, 192.5, 184.25, 188.0, 189.5, 191.0, 191.75, 192.5, 190.25, 160.25, 192.5, 192.5, 187.25, 191.75, 191.75, 191.75, 177.5, 191.0, 186.5, 191.75, 178.25, 142.25, 190.25, 192.5, 192.5, 162.5, 192.5, 186.5, 191.0, 181.25, 191.0, 189.5, 190.25, 191.75, 192.5, 192.5, 192.5, 187.25, 191.0, 190.25, 191.0, 192.5, 191.0, 192.5, 191.0, 191.75, 192.5, 191.0, 191.0, 187.25, 192.5, 190.25, 191.75, 191.75, 191.75, 192.5, 192.5, 191.75, 186.5, 191.0, 192.5, 192.5, 189.5, 192.5, 191.75, 192.5, 192.5, 191.0, 192.5, 192.5, 192.5, 192.5, 192.5, 192.5, 192.5, 191.75]
