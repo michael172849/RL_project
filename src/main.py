@@ -84,21 +84,51 @@ def main(days = 300, moreFeature=False, option="oven"):
     environ = Env(actions, rules, agent, model)
     environ.run(days, moreFeature)
     
-def baseline():
+def baseline(option):
     actions = []
     rules = []
-    actions.append(OvenAction(
+    ovenAction = TempAction(
         name = 'preheat',
-        time_cost=300
-    ))
-    rules.append(OvenRule(
+        time_cost=300,
+        step_cost=-1.5,
+    )
+    coffeeAction = TempAction(
+        name = 'coffee',
+        time_cost=300,
+        step_cost=-1.5,
+    )
+    ovenSequence = [[{'loc_cate':'home_bed', 'act_truth':'Sleeping'}],
+                    [{'loc_cate':'home_kitchen', 'act_truth':'Breakfast'}],]
+    ovenRule = SeqRule(
+        ovenSequence,
         200.,
         0.5,
-        actions[0],
-    ))
+        ovenAction,
+        seqWaitTime=1500,
+        name="OvenRule",
+    )
+    coffeeSequence = [[{'loc_cate':'Restaurant', 'act_truth':'LunchOutside'}, {'loc_cate':'home_kitchen', 'act_truth':'LunchAtHome'}],
+                    [{'loc_cate':'Office', 'act_truth':'AfternoonWork'}],]
+    coffeeRule = SeqRule(
+        coffeeSequence,
+        200.,
+        0.5,
+        coffeeAction,
+        seqWaitTime=3600,
+        name="CoffeeRule",
+    )
+    if "oven" in option:
+        actions.append(ovenAction)
+        rules.append(ovenRule)
+    if "coffee" in option:
+        actions.append(coffeeAction)
+        rules.append(coffeeRule)
     model = DataModel("coffee_guy")
     env = BaselineEnv(actions, rules, model)
-    env.run(500)
+    env.run(100, 
+        fix = 'Time',
+        rule = 'coffee'
+    )
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print('Please provide option in one string. Execute the code like:  python3 main.py \"oven coffee etrace extraFeature\"')
@@ -109,5 +139,8 @@ if __name__ == "__main__":
         print('extraFeature: enable extra features to make better predictions')
         exit(1)
     option = sys.argv[1]
-    main(days = 200, moreFeature="extraFeature" in option, option=option)
-    # baseline()
+    if "baseline" in option:
+        baseline(option)
+    else:
+        main(days = 200, moreFeature="extraFeature" in option, option=option)
+    

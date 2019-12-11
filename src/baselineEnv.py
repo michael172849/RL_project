@@ -40,21 +40,26 @@ class BaselineEnv():
         s, done = self.model.step(30)
         return s, r, done
 
-    def run(self, days, fix='Time'):
+    def run(self, days, fix='Time', rule='oven'):
+        sum = 0
         for i in range(days):
             prev = "test"
             self.reset()
             r_s = 0
             print("======Day {}====================================================================".format(i))
             a = None
+            test = None
             while not self.done:
+                if self.state['act_truth'] == 'AfternoonWork' and test is None:
+                    print (self.state['time'])
+                    test = 1
                 if fix == 'Time':
-                    if self.state['time'] >29290 and self.state['time'] < 29600 and self.rules_set[0] == 0:
+                    if self.state['time'] >38300 and self.rules_set[0] == 0:
                         a = {'act':self.actions[0].startAction, 'id':1}
                     else:
                         a = {'act':self.actions[0].stopAction, 'id':0}
                 else:
-                    if self.state['act_truth'] == 'Breakfast' and self.rules_set[0] == 0:
+                    if self.state['act_truth'] == 'AfternoonWork' and self.rules_set[0] == 0:
                         a = {'act':self.actions[0].startAction, 'id':1}
                     else:
                         a = {'act':self.actions[0].stopAction, 'id':0}
@@ -62,5 +67,8 @@ class BaselineEnv():
                 self.state = s_p
                 r_s += r
             print ("Return:{}!!!".format(r_s))
+            sum += r_s
+        print("????{}".format(sum/days))
+        
         
     
