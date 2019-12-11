@@ -1,134 +1,1207 @@
-['home_livingroom', 'home_bathroom', 'home_bed', 'home_kitchen', 'Office', 'Restaurant', 'home_study', 'home_bedroom', 'Building', 'Street']
-['home_livingroom', 'home_bathroom', 'home_bed', 'home_kitchen', 'Office', 'Restaurant', 'home_study', 'home_bedroom', 'Building', 'Street']
-OvenRule_CoffeeRule.out
+['Restaurant', 'Office', 'home_bed', 'home_bedroom', 'home_kitchen', 'home_bathroom', 'home_livingroom', 'Building', 'home_study', 'Street']
+['Restaurant', 'Office', 'home_bed', 'home_bedroom', 'home_kitchen', 'home_bathroom', 'home_livingroom', 'Building', 'home_study', 'Street']
 ======Day 0====================================================================
-OvenRule met at time:7:36:30
-CoffeeRule met at time:14:25:0
+OvenRule met at time:7:53:30
+CoffeeRule met at time:12:34:0
 Return:-588.0!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
-======Day 1====================================================================
-OvenRule met at time:8:31:0
-Finish preheat at 8:31:30
-CoffeeRule met at time:14:31:30
-Return:-248.5!!!
 ['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 1====================================================================
+OvenRule met at time:7:54:30
+Finish preheat at 7:55:0
+CoffeeRule met at time:12:58:0
+Return:-208.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
 ======Day 2====================================================================
-OvenRule met at time:9:11:30
-CoffeeRule met at time:14:16:0
-Finish coffee at 14:22:0
-Return:-491.5!!!
+OvenRule met at time:7:35:0
+Finish preheat at 7:37:30
+CoffeeRule met at time:12:57:0
+Finish coffee at 13:3:0
+Return:-114.5!!!
 ['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
 ======Day 3====================================================================
-OvenRule met at time:7:57:0
-CoffeeRule met at time:14:18:30
-Finish coffee at 14:19:0
-Return:-799.0!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+OvenRule met at time:7:55:30
+Finish preheat at 7:56:0
+CoffeeRule met at time:13:13:0
+Finish coffee at 13:13:30
+Return:-272.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
 ======Day 4====================================================================
-OvenRule met at time:7:39:30
-Finish preheat at 7:40:0
-CoffeeRule met at time:12:14:30
-Return:-345.25!!!
+OvenRule met at time:8:16:30
+Finish preheat at 8:17:0
+CoffeeRule met at time:12:15:30
+Finish coffee at 12:16:0
+Return:-79.25!!!
 ['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
 ======Day 5====================================================================
-OvenRule met at time:8:34:30
-Finish preheat at 8:41:0
-CoffeeRule met at time:13:29:0
-Finish coffee at 13:36:0
-Return:-272.75!!!
+OvenRule met at time:7:44:30
+Finish preheat at 7:45:0
+CoffeeRule met at time:12:53:0
+Finish coffee at 13:0:30
+Return:-161.75!!!
 ['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
 ======Day 6====================================================================
-OvenRule met at time:7:36:30
-CoffeeRule met at time:13:35:0
-Finish coffee at 13:35:30
-Return:-587.5!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+OvenRule met at time:8:11:30
+Finish preheat at 8:13:0
+CoffeeRule met at time:11:43:0
+Finish coffee at 11:43:30
+Return:23.5!!!
 ======Day 7====================================================================
-OvenRule met at time:8:7:0
-CoffeeRule met at time:13:19:0
-Finish coffee at 13:19:30
-Return:-651.25!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
-======Day 8====================================================================
-OvenRule met at time:8:53:0
-CoffeeRule met at time:14:12:30
-Finish coffee at 14:13:0
-Return:-433.0!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
-======Day 9====================================================================
-OvenRule met at time:9:21:0
-CoffeeRule met at time:14:43:30
-Finish coffee at 14:44:0
-Return:-326.5!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
-======Day 10====================================================================
-OvenRule met at time:8:48:30
-CoffeeRule met at time:14:57:30
-Finish coffee at 14:58:0
-Return:-391.0!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
-======Day 11====================================================================
-OvenRule met at time:9:47:30
-Finish preheat at 9:48:0
-CoffeeRule met at time:15:28:30
-Return:-526.0!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
-======Day 12====================================================================
-OvenRule met at time:7:55:30
-CoffeeRule met at time:13:47:0
-Finish coffee at 13:47:30
-Return:-361.0!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
-======Day 13====================================================================
-OvenRule met at time:7:57:0
-CoffeeRule met at time:12:17:0
-Finish coffee at 12:17:30
-Return:-337.0!!!
+OvenRule met at time:8:3:30
+Finish preheat at 8:5:0
+CoffeeRule met at time:11:7:30
+Return:-388.0!!!
 ['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 8====================================================================
+OvenRule met at time:9:2:30
+Finish preheat at 9:3:30
+CoffeeRule met at time:13:38:30
+Finish coffee at 13:41:0
+Return:14.5!!!
+======Day 9====================================================================
+OvenRule met at time:7:38:0
+Finish preheat at 7:39:0
+CoffeeRule met at time:11:46:0
+Finish coffee at 11:53:0
+Return:-131.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 10====================================================================
+OvenRule met at time:7:54:30
+Finish preheat at 7:55:0
+CoffeeRule met at time:14:19:0
+Return:-808.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 11====================================================================
+OvenRule met at time:8:42:30
+Finish preheat at 8:43:0
+CoffeeRule met at time:13:22:30
+Finish coffee at 13:25:0
+Return:21.25!!!
+======Day 12====================================================================
+OvenRule met at time:8:44:30
+Finish preheat at 8:45:30
+CoffeeRule met at time:14:59:0
+Return:-271.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street']
+======Day 13====================================================================
+OvenRule met at time:7:38:0
+Finish preheat at 7:40:0
+CoffeeRule met at time:12:43:30
+Finish coffee at 12:44:0
+Return:154.75!!!
 ======Day 14====================================================================
-OvenRule met at time:7:56:0
-Finish preheat at 7:56:30
+OvenRule met at time:8:20:30
+Finish preheat at 8:21:30
+CoffeeRule met at time:15:25:0
+Finish coffee at 15:30:0
+Return:214.0!!!
+======Day 15====================================================================
+OvenRule met at time:8:22:0
+Finish preheat at 8:22:30
+CoffeeRule met at time:12:58:30
+Finish coffee at 12:59:0
+Return:133.0!!!
+======Day 16====================================================================
+OvenRule met at time:7:49:0
+Finish preheat at 7:49:30
+CoffeeRule met at time:12:40:0
+Finish coffee at 12:40:30
+Return:115.0!!!
+======Day 17====================================================================
+OvenRule met at time:7:49:30
+Finish preheat at 7:50:0
 CoffeeRule met at time:13:3:0
 Finish coffee at 13:3:30
-Return:-41.0!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
-======Day 15====================================================================
-OvenRule met at time:7:42:30
-Finish preheat at 7:52:30
-CoffeeRule met at time:11:36:0
-Finish coffee at 11:44:30
-Return:-566.0!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
-======Day 16====================================================================
-OvenRule met at time:8:16:30
-CoffeeRule met at time:13:33:0
-Finish coffee at 13:33:30
-Return:-295.75!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
-======Day 17====================================================================
-OvenRule met at time:8:5:30
-Finish preheat at 8:8:0
-CoffeeRule met at time:14:19:0
-Finish coffee at 14:26:30
-Return:-93.5!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+Return:193.0!!!
 ======Day 18====================================================================
-OvenRule met at time:7:36:0
-Finish preheat at 7:40:30
-CoffeeRule met at time:13:29:0
-Finish coffee at 13:29:30
-Return:-189.5!!!
-['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
-======Day 19====================================================================
-OvenRule met at time:8:2:30
-Finish preheat at 8:7:0
-CoffeeRule met at time:12:11:30
-Finish coffee at 12:20:30
-Return:-307.25!!!
+OvenRule met at time:7:48:0
+Finish preheat at 7:49:30
+CoffeeRule met at time:11:58:0
+Return:-524.5!!!
 ['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 19====================================================================
+OvenRule met at time:8:11:0
+Finish preheat at 8:12:30
+CoffeeRule met at time:12:34:30
+Finish coffee at 12:36:0
+Return:162.25!!!
 ======Day 20====================================================================
-OvenRule met at time:7:44:30
-CoffeeRule met at time:12:30:30
-Finish coffee at 12:31:0
-Return:-520.75!!!
+OvenRule met at time:7:34:30
+Finish preheat at 7:36:0
+CoffeeRule met at time:14:31:30
+Return:-489.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 21====================================================================
+OvenRule met at time:8:24:0
+Finish preheat at 8:25:0
+CoffeeRule met at time:14:16:0
+Return:-371.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 22====================================================================
+OvenRule met at time:8:10:30
+Finish preheat at 8:11:30
+CoffeeRule met at time:12:36:30
+Finish coffee at 12:38:0
+Return:267.25!!!
+======Day 23====================================================================
+OvenRule met at time:8:9:30
+Finish preheat at 8:10:30
+CoffeeRule met at time:14:43:0
+Return:-280.75!!!
 ['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 24====================================================================
+OvenRule met at time:8:12:30
+Finish preheat at 8:13:0
+CoffeeRule met at time:13:21:0
+Finish coffee at 13:23:0
+Return:275.5!!!
+======Day 25====================================================================
+OvenRule met at time:8:24:0
+Finish preheat at 8:25:0
+CoffeeRule met at time:13:25:0
+Finish coffee at 13:27:30
+Return:210.25!!!
+======Day 26====================================================================
+OvenRule met at time:8:25:30
+Finish preheat at 8:26:0
+CoffeeRule met at time:13:18:30
+Finish coffee at 13:20:30
+Return:285.25!!!
+======Day 27====================================================================
+OvenRule met at time:9:6:30
+Finish preheat at 9:7:30
+CoffeeRule met at time:14:18:30
+Return:-265.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 28====================================================================
+OvenRule met at time:8:35:0
+Finish preheat at 8:36:0
+CoffeeRule met at time:14:49:30
+Return:-256.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 29====================================================================
+OvenRule met at time:8:15:30
+Finish preheat at 8:16:0
+CoffeeRule met at time:13:45:0
+Finish coffee at 13:47:30
+Return:217.75!!!
+======Day 30====================================================================
+OvenRule met at time:7:59:0
+Finish preheat at 7:59:30
+CoffeeRule met at time:12:39:0
+Finish coffee at 12:40:30
+Return:309.25!!!
+======Day 31====================================================================
+OvenRule met at time:9:42:0
+Finish preheat at 9:43:30
+CoffeeRule met at time:15:33:0
+Return:-294.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 32====================================================================
+OvenRule met at time:9:8:0
+Finish preheat at 9:9:0
+CoffeeRule met at time:14:5:0
+Finish coffee at 14:8:0
+Return:233.5!!!
+======Day 33====================================================================
+OvenRule met at time:8:48:30
+Finish preheat at 8:49:0
+CoffeeRule met at time:14:33:30
+Return:-180.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 34====================================================================
+OvenRule met at time:7:58:0
+Finish preheat at 7:58:30
+CoffeeRule met at time:12:34:30
+Finish coffee at 12:36:0
+Return:353.5!!!
+======Day 35====================================================================
+OvenRule met at time:8:6:30
+Finish preheat at 8:7:0
+CoffeeRule met at time:13:28:30
+Finish coffee at 13:30:30
+Return:269.5!!!
+======Day 36====================================================================
+OvenRule met at time:8:10:0
+Finish preheat at 8:11:30
+CoffeeRule met at time:12:37:0
+Finish coffee at 12:38:30
+Return:316.75!!!
+======Day 37====================================================================
+OvenRule met at time:9:21:30
+Finish preheat at 9:22:0
+CoffeeRule met at time:15:5:30
+Return:-270.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 38====================================================================
+OvenRule met at time:8:34:30
+Finish preheat at 8:35:0
+CoffeeRule met at time:15:50:30
+Return:-343.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street']
+======Day 39====================================================================
+OvenRule met at time:7:34:0
+Finish preheat at 7:35:30
+CoffeeRule met at time:13:47:0
+Finish coffee at 13:49:30
+Return:175.75!!!
+======Day 40====================================================================
+OvenRule met at time:8:29:0
+Finish preheat at 8:30:30
+CoffeeRule met at time:14:30:0
+Finish coffee at 14:39:30
+Return:77.5!!!
+======Day 41====================================================================
+OvenRule met at time:8:32:0
+Finish preheat at 8:33:30
+CoffeeRule met at time:12:3:30
+Finish coffee at 12:5:0
+Return:334.75!!!
+======Day 42====================================================================
+OvenRule met at time:8:21:30
+Finish preheat at 8:22:0
+CoffeeRule met at time:13:48:30
+Finish coffee at 13:51:0
+Return:335.5!!!
+======Day 43====================================================================
+OvenRule met at time:8:1:0
+Finish preheat at 8:1:30
+CoffeeRule met at time:13:6:0
+Finish coffee at 13:7:30
+Return:363.25!!!
+======Day 44====================================================================
+OvenRule met at time:8:37:0
+CoffeeRule met at time:15:4:0
+Return:-875.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 45====================================================================
+OvenRule met at time:7:27:0
+Finish preheat at 7:28:0
+CoffeeRule met at time:11:35:30
+Finish coffee at 11:45:0
+Return:-65.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 46====================================================================
+OvenRule met at time:8:14:0
+Finish preheat at 8:15:30
+CoffeeRule met at time:13:22:30
+Finish coffee at 13:24:0
+Return:344.5!!!
+======Day 47====================================================================
+OvenRule met at time:8:28:0
+Finish preheat at 8:28:30
+CoffeeRule met at time:13:43:0
+Finish coffee at 13:45:30
+Return:268.0!!!
+======Day 48====================================================================
+OvenRule met at time:7:54:30
+Finish preheat at 7:55:30
+CoffeeRule met at time:12:53:0
+Finish coffee at 12:54:30
+Return:367.0!!!
+======Day 49====================================================================
+OvenRule met at time:8:39:30
+Finish preheat at 8:40:0
+CoffeeRule met at time:13:52:0
+Finish coffee at 13:54:30
+Return:325.75!!!
+======Day 50====================================================================
+OvenRule met at time:8:4:0
+Finish preheat at 8:5:30
+CoffeeRule met at time:13:6:0
+Finish coffee at 13:7:30
+Return:352.0!!!
+======Day 51====================================================================
+OvenRule met at time:7:37:30
+Finish preheat at 7:38:30
+CoffeeRule met at time:13:23:30
+Finish coffee at 13:25:30
+Return:319.75!!!
+======Day 52====================================================================
+OvenRule met at time:8:39:0
+Finish preheat at 8:40:30
+CoffeeRule met at time:14:27:30
+Return:-245.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 53====================================================================
+OvenRule met at time:8:31:30
+Finish preheat at 8:32:0
+CoffeeRule met at time:14:16:0
+Finish coffee at 14:17:30
+Return:361.75!!!
+======Day 54====================================================================
+OvenRule met at time:8:1:0
+Finish preheat at 8:1:30
+CoffeeRule met at time:12:40:30
+Finish coffee at 12:42:0
+Return:355.75!!!
+======Day 55====================================================================
+OvenRule met at time:7:52:0
+Finish preheat at 7:53:0
+CoffeeRule met at time:12:39:30
+Finish coffee at 12:41:0
+Return:321.25!!!
+======Day 56====================================================================
+OvenRule met at time:7:56:0
+Finish preheat at 7:56:30
+CoffeeRule met at time:13:32:0
+Finish coffee at 13:34:0
+Return:345.25!!!
+======Day 57====================================================================
+OvenRule met at time:8:25:0
+Finish preheat at 8:25:30
+CoffeeRule met at time:13:37:30
+Finish coffee at 13:39:30
+Return:350.5!!!
+======Day 58====================================================================
+OvenRule met at time:7:45:0
+Finish preheat at 7:45:30
+CoffeeRule met at time:13:46:0
+Finish coffee at 13:48:30
+Return:305.5!!!
+======Day 59====================================================================
+OvenRule met at time:8:23:0
+Finish preheat at 8:23:30
+CoffeeRule met at time:13:52:0
+Finish coffee at 13:54:30
+Return:310.0!!!
+======Day 60====================================================================
+OvenRule met at time:8:36:0
+Finish preheat at 8:36:30
+CoffeeRule met at time:12:53:30
+Finish coffee at 12:55:0
+Return:359.5!!!
+======Day 61====================================================================
+OvenRule met at time:8:10:30
+Finish preheat at 8:11:0
+CoffeeRule met at time:11:49:30
+Finish coffee at 11:52:30
+Return:220.75!!!
+======Day 62====================================================================
+OvenRule met at time:8:49:30
+Finish preheat at 8:50:0
+CoffeeRule met at time:14:18:30
+Finish coffee at 14:20:30
+Return:321.25!!!
+======Day 63====================================================================
+OvenRule met at time:8:12:0
+Finish preheat at 8:13:30
+CoffeeRule met at time:13:3:30
+Finish coffee at 13:5:0
+Return:350.5!!!
+======Day 64====================================================================
+OvenRule met at time:9:15:0
+Finish preheat at 9:16:30
+CoffeeRule met at time:14:39:0
+Return:-151.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 65====================================================================
+OvenRule met at time:8:53:30
+Finish preheat at 8:54:0
+CoffeeRule met at time:14:32:0
+Finish coffee at 14:34:0
+Return:329.5!!!
+======Day 66====================================================================
+OvenRule met at time:8:15:0
+Finish preheat at 8:16:0
+CoffeeRule met at time:14:23:0
+Return:-128.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 67====================================================================
+OvenRule met at time:9:6:0
+Finish preheat at 9:6:30
+CoffeeRule met at time:16:17:30
+Finish coffee at 16:18:0
+Return:220.75!!!
+======Day 68====================================================================
+OvenRule met at time:7:37:30
+Finish preheat at 7:38:0
+CoffeeRule met at time:11:58:30
+Finish coffee at 12:2:0
+Return:277.0!!!
+======Day 69====================================================================
+OvenRule met at time:8:3:30
+Finish preheat at 8:4:0
+CoffeeRule met at time:14:9:0
+Finish coffee at 14:12:0
+Return:290.5!!!
+======Day 70====================================================================
+OvenRule met at time:8:46:30
+Finish preheat at 8:47:0
+CoffeeRule met at time:12:33:0
+Finish coffee at 12:34:30
+Return:364.75!!!
+======Day 71====================================================================
+OvenRule met at time:8:8:0
+Finish preheat at 8:8:30
+CoffeeRule met at time:11:47:30
+Finish coffee at 11:49:0
+Return:260.5!!!
+======Day 72====================================================================
+OvenRule met at time:7:47:30
+Finish preheat at 7:48:0
+CoffeeRule met at time:12:16:30
+Finish coffee at 12:18:0
+Return:361.75!!!
+======Day 73====================================================================
+OvenRule met at time:8:49:30
+Finish preheat at 8:51:0
+CoffeeRule met at time:12:38:0
+Finish coffee at 12:39:30
+Return:352.0!!!
+======Day 74====================================================================
+OvenRule met at time:7:59:30
+Finish preheat at 8:0:0
+CoffeeRule met at time:13:49:0
+Finish coffee at 13:51:30
+Return:322.0!!!
+======Day 75====================================================================
+OvenRule met at time:8:54:30
+Finish preheat at 8:55:0
+CoffeeRule met at time:14:12:0
+Return:-109.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 76====================================================================
+OvenRule met at time:8:17:0
+Finish preheat at 8:18:0
+CoffeeRule met at time:11:57:0
+Finish coffee at 11:58:30
+Return:347.5!!!
+======Day 77====================================================================
+OvenRule met at time:8:9:0
+Finish preheat at 8:10:0
+CoffeeRule met at time:11:51:0
+Finish coffee at 11:52:30
+Return:346.75!!!
+======Day 78====================================================================
+OvenRule met at time:7:48:0
+Finish preheat at 7:48:30
+CoffeeRule met at time:11:24:0
+Return:-464.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 79====================================================================
+OvenRule met at time:8:27:30
+Finish preheat at 8:28:0
+CoffeeRule met at time:13:58:30
+Finish coffee at 14:1:30
+Return:241.0!!!
+======Day 80====================================================================
+OvenRule met at time:8:52:30
+Finish preheat at 8:53:0
+CoffeeRule met at time:14:34:30
+Return:-107.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom']
+======Day 81====================================================================
+OvenRule met at time:8:29:30
+Finish preheat at 8:30:0
+CoffeeRule met at time:13:17:0
+Finish coffee at 13:18:30
+Return:366.25!!!
+======Day 82====================================================================
+OvenRule met at time:7:50:30
+Finish preheat at 7:52:0
+CoffeeRule met at time:13:26:30
+Finish coffee at 13:28:30
+Return:337.0!!!
+======Day 83====================================================================
+OvenRule met at time:7:56:30
+Finish preheat at 7:57:0
+CoffeeRule met at time:10:56:0
+Finish coffee at 10:59:30
+Return:211.0!!!
+======Day 84====================================================================
+OvenRule met at time:8:43:0
+Finish preheat at 8:44:0
+CoffeeRule met at time:13:37:0
+Finish coffee at 13:39:0
+Return:352.75!!!
+======Day 85====================================================================
+OvenRule met at time:8:27:0
+Finish preheat at 8:27:30
+CoffeeRule met at time:14:1:30
+Finish coffee at 14:4:30
+Return:246.25!!!
+======Day 86====================================================================
+OvenRule met at time:8:15:30
+Finish preheat at 8:16:0
+CoffeeRule met at time:15:10:0
+Return:-150.25!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 87====================================================================
+OvenRule met at time:8:20:30
+Finish preheat at 8:21:0
+CoffeeRule met at time:13:24:0
+Finish coffee at 13:26:0
+Return:352.0!!!
+======Day 88====================================================================
+OvenRule met at time:7:55:0
+Finish preheat at 7:55:30
+CoffeeRule met at time:13:10:30
+Finish coffee at 13:12:0
+Return:366.25!!!
+======Day 89====================================================================
+OvenRule met at time:8:12:0
+Finish preheat at 8:12:30
+CoffeeRule met at time:14:57:0
+Return:-118.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study']
+======Day 90====================================================================
+OvenRule met at time:9:1:30
+Finish preheat at 9:3:0
+CoffeeRule met at time:14:51:30
+Return:-169.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 91====================================================================
+OvenRule met at time:8:13:30
+Finish preheat at 8:14:0
+CoffeeRule met at time:15:9:30
+Return:-151.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street']
+======Day 92====================================================================
+OvenRule met at time:8:1:0
+Finish preheat at 8:1:30
+CoffeeRule met at time:13:45:30
+Finish coffee at 13:48:0
+Return:305.5!!!
+======Day 93====================================================================
+OvenRule met at time:8:26:30
+Finish preheat at 8:27:0
+CoffeeRule met at time:14:39:30
+Finish coffee at 14:42:0
+Return:277.0!!!
+======Day 94====================================================================
+OvenRule met at time:8:23:0
+Finish preheat at 8:24:0
+CoffeeRule met at time:14:12:30
+Return:-125.5!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 95====================================================================
+OvenRule met at time:7:39:30
+Finish preheat at 7:41:0
+CoffeeRule met at time:12:55:30
+Finish coffee at 12:57:0
+Return:352.0!!!
+======Day 96====================================================================
+OvenRule met at time:8:13:0
+Finish preheat at 8:13:30
+CoffeeRule met at time:12:33:0
+Finish coffee at 12:34:30
+Return:358.75!!!
+======Day 97====================================================================
+OvenRule met at time:7:55:30
+Finish preheat at 7:56:0
+CoffeeRule met at time:13:49:0
+Finish coffee at 13:51:30
+Return:320.5!!!
+======Day 98====================================================================
+OvenRule met at time:8:15:30
+Finish preheat at 8:16:0
+CoffeeRule met at time:13:14:0
+Finish coffee at 13:15:30
+Return:367.0!!!
+======Day 99====================================================================
+OvenRule met at time:7:51:0
+Finish preheat at 7:51:30
+CoffeeRule met at time:13:18:30
+Finish coffee at 13:20:0
+Return:365.5!!!
+======Day 100====================================================================
+OvenRule met at time:8:22:0
+Finish preheat at 8:23:0
+CoffeeRule met at time:13:45:30
+Finish coffee at 13:48:0
+Return:337.0!!!
+======Day 101====================================================================
+OvenRule met at time:7:52:30
+Finish preheat at 7:53:30
+CoffeeRule met at time:13:38:0
+Finish coffee at 13:40:0
+Return:352.0!!!
+======Day 102====================================================================
+OvenRule met at time:8:9:0
+Finish preheat at 8:9:30
+CoffeeRule met at time:12:42:30
+Finish coffee at 12:44:0
+Return:361.0!!!
+======Day 103====================================================================
+OvenRule met at time:8:48:30
+Finish preheat at 8:50:0
+CoffeeRule met at time:15:23:0
+Finish coffee at 15:24:0
+Return:247.75!!!
+======Day 104====================================================================
+OvenRule met at time:8:35:30
+Finish preheat at 8:36:0
+CoffeeRule met at time:14:1:0
+Finish coffee at 14:2:30
+Return:360.25!!!
+======Day 105====================================================================
+OvenRule met at time:10:8:30
+Finish preheat at 10:9:0
+CoffeeRule met at time:13:45:30
+Finish coffee at 13:47:0
+Return:282.25!!!
+======Day 106====================================================================
+OvenRule met at time:8:6:30
+Finish preheat at 8:8:0
+CoffeeRule met at time:14:22:0
+Finish coffee at 14:23:30
+Return:337.75!!!
+======Day 107====================================================================
+OvenRule met at time:7:54:30
+Finish preheat at 7:55:30
+CoffeeRule met at time:12:5:30
+Finish coffee at 12:7:0
+Return:367.0!!!
+======Day 108====================================================================
+OvenRule met at time:8:19:0
+Finish preheat at 8:19:30
+CoffeeRule met at time:13:52:30
+Finish coffee at 13:54:0
+Return:365.5!!!
+======Day 109====================================================================
+OvenRule met at time:8:38:30
+Finish preheat at 8:39:30
+CoffeeRule met at time:13:35:30
+Finish coffee at 13:37:0
+Return:367.0!!!
+======Day 110====================================================================
+OvenRule met at time:7:48:0
+Finish preheat at 7:49:0
+CoffeeRule met at time:12:44:0
+Finish coffee at 12:45:30
+Return:367.0!!!
+======Day 111====================================================================
+OvenRule met at time:8:1:0
+Finish preheat at 8:2:0
+CoffeeRule met at time:12:2:30
+Finish coffee at 12:4:0
+Return:330.25!!!
+======Day 112====================================================================
+OvenRule met at time:8:12:30
+Finish preheat at 8:13:0
+CoffeeRule met at time:11:45:0
+Finish coffee at 11:47:30
+Return:336.25!!!
+======Day 113====================================================================
+OvenRule met at time:7:47:0
+Finish preheat at 7:48:30
+CoffeeRule met at time:14:35:0
+Finish coffee at 14:36:30
+Return:345.25!!!
+======Day 114====================================================================
+OvenRule met at time:7:27:30
+Finish preheat at 7:28:0
+CoffeeRule met at time:13:20:30
+Finish coffee at 13:22:0
+Return:361.0!!!
+======Day 115====================================================================
+OvenRule met at time:7:37:0
+Finish preheat at 7:38:0
+CoffeeRule met at time:11:43:30
+Finish coffee at 11:46:0
+Return:238.0!!!
+======Day 116====================================================================
+OvenRule met at time:7:59:30
+Finish preheat at 8:0:30
+CoffeeRule met at time:11:36:0
+Finish coffee at 11:38:30
+Return:323.5!!!
+======Day 117====================================================================
+OvenRule met at time:9:14:0
+Finish preheat at 9:15:0
+CoffeeRule met at time:12:53:30
+Finish coffee at 12:55:0
+Return:347.5!!!
+======Day 118====================================================================
+OvenRule met at time:9:9:30
+Finish preheat at 9:10:0
+CoffeeRule met at time:15:52:30
+Finish coffee at 15:55:0
+Return:247.0!!!
+======Day 119====================================================================
+OvenRule met at time:8:52:30
+Finish preheat at 8:53:30
+CoffeeRule met at time:14:28:30
+Finish coffee at 14:30:0
+Return:365.5!!!
+======Day 120====================================================================
+OvenRule met at time:8:50:0
+Finish preheat at 8:50:30
+CoffeeRule met at time:12:33:0
+Finish coffee at 12:34:30
+Return:362.5!!!
+======Day 121====================================================================
+OvenRule met at time:7:49:0
+Finish preheat at 7:50:0
+CoffeeRule met at time:13:44:0
+Finish coffee at 13:45:30
+Return:367.0!!!
+======Day 122====================================================================
+OvenRule met at time:8:33:0
+Finish preheat at 8:34:0
+CoffeeRule met at time:14:20:30
+Finish coffee at 14:22:0
+Return:367.0!!!
+======Day 123====================================================================
+OvenRule met at time:7:26:30
+Finish preheat at 7:27:0
+CoffeeRule met at time:11:23:0
+Finish coffee at 11:25:30
+Return:286.0!!!
+======Day 124====================================================================
+OvenRule met at time:8:38:30
+Finish preheat at 8:40:30
+CoffeeRule met at time:12:22:0
+Finish coffee at 12:23:30
+Return:334.75!!!
+======Day 125====================================================================
+OvenRule met at time:7:42:0
+Finish preheat at 7:43:30
+CoffeeRule met at time:11:3:0
+Return:-448.0!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 126====================================================================
+OvenRule met at time:8:9:30
+Finish preheat at 8:10:0
+CoffeeRule met at time:13:10:30
+Finish coffee at 13:12:0
+Return:367.0!!!
+======Day 127====================================================================
+OvenRule met at time:7:58:30
+Finish preheat at 8:0:0
+CoffeeRule met at time:12:39:30
+Finish coffee at 12:41:0
+Return:352.0!!!
+======Day 128====================================================================
+OvenRule met at time:7:51:30
+Finish preheat at 7:52:0
+CoffeeRule met at time:14:31:0
+Finish coffee at 14:32:30
+Return:366.25!!!
+======Day 129====================================================================
+OvenRule met at time:7:39:0
+Finish preheat at 7:39:30
+CoffeeRule met at time:12:40:30
+Finish coffee at 12:42:0
+Return:364.0!!!
+======Day 130====================================================================
+OvenRule met at time:7:58:0
+Finish preheat at 7:58:30
+CoffeeRule met at time:10:55:30
+Return:-328.75!!!
+['home_bed', 'home_bedroom', 'home_bathroom', 'home_kitchen', 'home_livingroom', 'home_kitchen', 'Street', 'Office', 'Street', 'Restaurant', 'Street', 'home_study', 'home_bathroom', 'home_bed']
+======Day 131====================================================================
+OvenRule met at time:8:5:30
+Finish preheat at 8:6:0
+CoffeeRule met at time:14:29:0
+Finish coffee at 14:30:30
+Return:366.25!!!
+======Day 132====================================================================
+OvenRule met at time:8:44:0
+Finish preheat at 8:44:30
+CoffeeRule met at time:15:29:30
+Finish coffee at 15:30:0
+Return:271.75!!!
+======Day 133====================================================================
+OvenRule met at time:8:14:30
+Finish preheat at 8:15:0
+CoffeeRule met at time:12:46:0
+Finish coffee at 12:47:30
+Return:367.0!!!
+======Day 134====================================================================
+OvenRule met at time:7:49:0
+Finish preheat at 7:49:30
+CoffeeRule met at time:13:20:30
+Finish coffee at 13:22:0
+Return:361.0!!!
+======Day 135====================================================================
+OvenRule met at time:7:45:0
+Finish preheat at 7:45:30
+CoffeeRule met at time:12:39:30
+Finish coffee at 12:41:0
+Return:365.5!!!
+======Day 136====================================================================
+OvenRule met at time:8:51:30
+Finish preheat at 8:52:0
+CoffeeRule met at time:14:30:0
+Finish coffee at 14:31:30
+Return:323.5!!!
+======Day 137====================================================================
+OvenRule met at time:8:19:30
+Finish preheat at 8:20:0
+CoffeeRule met at time:13:3:30
+Finish coffee at 13:5:0
+Return:367.0!!!
+======Day 138====================================================================
+OvenRule met at time:8:52:30
+Finish preheat at 8:54:0
+CoffeeRule met at time:12:4:0
+Finish coffee at 12:5:30
+Return:238.75!!!
+======Day 139====================================================================
+OvenRule met at time:8:33:30
+Finish preheat at 8:35:0
+CoffeeRule met at time:13:37:0
+Finish coffee at 13:38:30
+Return:343.75!!!
+======Day 140====================================================================
+OvenRule met at time:8:1:30
+Finish preheat at 8:2:0
+CoffeeRule met at time:13:20:30
+Finish coffee at 13:22:0
+Return:367.0!!!
+======Day 141====================================================================
+OvenRule met at time:8:0:30
+Finish preheat at 8:1:0
+CoffeeRule met at time:13:3:30
+Finish coffee at 13:5:0
+Return:366.25!!!
+======Day 142====================================================================
+OvenRule met at time:8:8:0
+Finish preheat at 8:8:30
+CoffeeRule met at time:13:50:0
+Finish coffee at 13:51:30
+Return:367.0!!!
+======Day 143====================================================================
+OvenRule met at time:8:18:30
+Finish preheat at 8:20:0
+CoffeeRule met at time:13:21:30
+Finish coffee at 13:23:0
+Return:352.0!!!
+======Day 144====================================================================
+OvenRule met at time:8:35:0
+Finish preheat at 8:36:30
+CoffeeRule met at time:13:22:0
+Finish coffee at 13:23:30
+Return:352.0!!!
+======Day 145====================================================================
+OvenRule met at time:8:14:30
+Finish preheat at 8:15:30
+CoffeeRule met at time:16:41:0
+Finish coffee at 16:41:30
+Return:230.5!!!
+======Day 146====================================================================
+OvenRule met at time:8:27:0
+Finish preheat at 8:27:30
+CoffeeRule met at time:14:17:0
+Finish coffee at 14:18:30
+Return:365.5!!!
+======Day 147====================================================================
+OvenRule met at time:8:54:0
+Finish preheat at 8:54:30
+CoffeeRule met at time:14:29:30
+Finish coffee at 14:31:0
+Return:358.75!!!
+======Day 148====================================================================
+OvenRule met at time:8:8:30
+Finish preheat at 8:9:0
+CoffeeRule met at time:13:4:0
+Finish coffee at 13:5:30
+Return:367.0!!!
+======Day 149====================================================================
+OvenRule met at time:9:18:0
+Finish preheat at 9:18:30
+CoffeeRule met at time:14:3:0
+Finish coffee at 14:4:30
+Return:362.5!!!
+======Day 150====================================================================
+OvenRule met at time:7:52:0
+Finish preheat at 7:54:0
+CoffeeRule met at time:14:4:0
+Finish coffee at 14:5:30
+Return:332.5!!!
+======Day 151====================================================================
+OvenRule met at time:8:57:30
+Finish preheat at 8:58:0
+CoffeeRule met at time:14:55:0
+Finish coffee at 14:56:30
+Return:319.0!!!
+======Day 152====================================================================
+OvenRule met at time:7:54:0
+Finish preheat at 7:54:30
+CoffeeRule met at time:12:51:0
+Finish coffee at 12:52:30
+Return:366.25!!!
+======Day 153====================================================================
+OvenRule met at time:8:25:30
+Finish preheat at 8:27:0
+CoffeeRule met at time:13:32:30
+Finish coffee at 13:34:0
+Return:352.0!!!
+======Day 154====================================================================
+OvenRule met at time:8:0:0
+Finish preheat at 8:0:30
+CoffeeRule met at time:13:43:30
+Finish coffee at 13:45:0
+Return:367.0!!!
+======Day 155====================================================================
+OvenRule met at time:8:43:0
+Finish preheat at 8:43:30
+CoffeeRule met at time:12:41:30
+Finish coffee at 12:43:0
+Return:359.5!!!
+======Day 156====================================================================
+OvenRule met at time:7:37:30
+Finish preheat at 7:38:0
+CoffeeRule met at time:11:27:30
+Finish coffee at 11:30:0
+Return:337.0!!!
+======Day 157====================================================================
+OvenRule met at time:8:42:0
+Finish preheat at 8:43:30
+CoffeeRule met at time:12:36:0
+Finish coffee at 12:37:30
+Return:352.0!!!
+======Day 158====================================================================
+OvenRule met at time:8:6:0
+Finish preheat at 8:6:30
+CoffeeRule met at time:12:47:30
+Finish coffee at 12:49:0
+Return:365.5!!!
+======Day 159====================================================================
+OvenRule met at time:8:38:0
+Finish preheat at 8:39:0
+CoffeeRule met at time:14:35:30
+Finish coffee at 14:37:0
+Return:336.25!!!
+======Day 160====================================================================
+OvenRule met at time:7:57:0
+Finish preheat at 7:58:0
+CoffeeRule met at time:11:38:0
+Finish coffee at 11:40:30
+Return:337.75!!!
+======Day 161====================================================================
+OvenRule met at time:8:13:30
+Finish preheat at 8:15:0
+CoffeeRule met at time:14:9:30
+Finish coffee at 14:11:0
+Return:349.0!!!
+======Day 162====================================================================
+OvenRule met at time:9:22:30
+Finish preheat at 9:23:30
+CoffeeRule met at time:14:41:30
+Finish coffee at 14:43:0
+Return:341.5!!!
+======Day 163====================================================================
+OvenRule met at time:7:58:30
+Finish preheat at 7:59:0
+CoffeeRule met at time:13:29:0
+Finish coffee at 13:30:30
+Return:365.5!!!
+======Day 164====================================================================
+OvenRule met at time:8:6:30
+Finish preheat at 8:7:0
+CoffeeRule met at time:12:7:30
+Finish coffee at 12:9:0
+Return:334.75!!!
+======Day 165====================================================================
+OvenRule met at time:8:11:0
+Finish preheat at 8:11:30
+CoffeeRule met at time:13:29:30
+Finish coffee at 13:31:0
+Return:363.25!!!
+======Day 166====================================================================
+OvenRule met at time:7:59:30
+Finish preheat at 8:0:30
+CoffeeRule met at time:13:45:0
+Finish coffee at 13:46:30
+Return:367.0!!!
+======Day 167====================================================================
+OvenRule met at time:8:19:0
+Finish preheat at 8:20:30
+CoffeeRule met at time:12:56:30
+Finish coffee at 12:58:0
+Return:352.0!!!
+======Day 168====================================================================
+OvenRule met at time:7:24:0
+Finish preheat at 7:25:30
+CoffeeRule met at time:14:27:30
+Finish coffee at 14:29:0
+Return:351.25!!!
+======Day 169====================================================================
+OvenRule met at time:8:22:30
+Finish preheat at 8:24:30
+CoffeeRule met at time:11:43:30
+Finish coffee at 11:46:0
+Return:307.75!!!
+======Day 170====================================================================
+OvenRule met at time:8:15:30
+Finish preheat at 8:16:0
+CoffeeRule met at time:14:12:30
+Finish coffee at 14:14:0
+Return:366.25!!!
+======Day 171====================================================================
+OvenRule met at time:8:12:30
+Finish preheat at 8:14:0
+CoffeeRule met at time:12:19:0
+Finish coffee at 12:20:30
+Return:352.0!!!
+======Day 172====================================================================
+OvenRule met at time:8:9:30
+Finish preheat at 8:10:0
+CoffeeRule met at time:13:39:30
+Finish coffee at 13:41:0
+Return:367.0!!!
+======Day 173====================================================================
+OvenRule met at time:7:53:0
+Finish preheat at 7:54:0
+CoffeeRule met at time:13:15:0
+Finish coffee at 13:16:30
+Return:367.0!!!
+======Day 174====================================================================
+OvenRule met at time:7:53:30
+Finish preheat at 7:54:0
+CoffeeRule met at time:13:32:30
+Finish coffee at 13:34:0
+Return:364.75!!!
+======Day 175====================================================================
+OvenRule met at time:8:6:30
+Finish preheat at 8:7:0
+CoffeeRule met at time:12:38:30
+Finish coffee at 12:40:0
+Return:367.0!!!
+======Day 176====================================================================
+OvenRule met at time:7:46:30
+Finish preheat at 7:48:0
+CoffeeRule met at time:11:39:30
+Finish coffee at 11:42:0
+Return:317.5!!!
+======Day 177====================================================================
+OvenRule met at time:8:30:0
+Finish preheat at 8:31:0
+CoffeeRule met at time:13:59:0
+Finish coffee at 14:0:30
+Return:365.5!!!
+======Day 178====================================================================
+OvenRule met at time:7:43:0
+Finish preheat at 7:43:30
+CoffeeRule met at time:14:16:0
+Finish coffee at 14:17:30
+Return:365.5!!!
+======Day 179====================================================================
+OvenRule met at time:8:26:30
+Finish preheat at 8:27:0
+CoffeeRule met at time:14:42:30
+Finish coffee at 14:44:0
+Return:352.0!!!
+======Day 180====================================================================
+OvenRule met at time:8:14:30
+Finish preheat at 8:15:0
+CoffeeRule met at time:14:29:0
+Finish coffee at 14:30:30
+Return:351.25!!!
+======Day 181====================================================================
+OvenRule met at time:7:53:0
+Finish preheat at 7:54:30
+CoffeeRule met at time:11:19:0
+Finish coffee at 11:21:30
+Return:295.0!!!
+======Day 182====================================================================
+OvenRule met at time:7:12:0
+Finish preheat at 7:12:30
+CoffeeRule met at time:14:49:0
+Finish coffee at 14:50:30
+Return:319.75!!!
+======Day 183====================================================================
+OvenRule met at time:8:2:0
+Finish preheat at 8:2:30
+CoffeeRule met at time:13:53:30
+Finish coffee at 13:55:0
+Return:367.0!!!
+======Day 184====================================================================
+OvenRule met at time:8:7:30
+Finish preheat at 8:8:0
+CoffeeRule met at time:13:34:0
+Finish coffee at 13:35:30
+Return:366.25!!!
+======Day 185====================================================================
+OvenRule met at time:7:43:0
+Finish preheat at 7:43:30
+CoffeeRule met at time:11:44:30
+Finish coffee at 11:47:0
+Return:331.75!!!
+======Day 186====================================================================
+OvenRule met at time:8:0:30
+Finish preheat at 8:2:0
+CoffeeRule met at time:13:12:30
+Finish coffee at 13:14:0
+Return:352.0!!!
+======Day 187====================================================================
+OvenRule met at time:8:18:30
+Finish preheat at 8:19:0
+CoffeeRule met at time:14:42:30
+Finish coffee at 14:44:0
+Return:307.0!!!
+======Day 188====================================================================
+OvenRule met at time:8:21:30
+Finish preheat at 8:22:0
+CoffeeRule met at time:13:32:0
+Finish coffee at 13:33:30
+Return:364.75!!!
+======Day 189====================================================================
+OvenRule met at time:9:0:30
+Finish preheat at 9:1:0
+CoffeeRule met at time:15:31:30
+Finish coffee at 15:33:0
+Return:277.0!!!
+======Day 190====================================================================
+OvenRule met at time:8:53:0
+Finish preheat at 8:54:0
+CoffeeRule met at time:13:30:30
+Finish coffee at 13:32:0
+Return:367.0!!!
+======Day 191====================================================================
+OvenRule met at time:7:33:0
+Finish preheat at 7:33:30
+CoffeeRule met at time:15:3:30
+Finish coffee at 15:5:0
+Return:355.75!!!
+======Day 192====================================================================
+OvenRule met at time:7:56:30
+Finish preheat at 7:57:0
+CoffeeRule met at time:14:40:30
+Finish coffee at 14:42:0
+Return:304.0!!!
+======Day 193====================================================================
+OvenRule met at time:8:28:0
+Finish preheat at 8:29:0
+CoffeeRule met at time:12:57:30
+Finish coffee at 12:59:0
+Return:367.0!!!
+======Day 194====================================================================
+OvenRule met at time:7:36:0
+Finish preheat at 7:37:0
+CoffeeRule met at time:10:43:30
+Finish coffee at 10:53:30
+Return:89.5!!!
+======Day 195====================================================================
+OvenRule met at time:7:28:0
+Finish preheat at 7:29:30
+CoffeeRule met at time:12:10:30
+Finish coffee at 12:12:0
+Return:352.0!!!
+======Day 196====================================================================
+OvenRule met at time:9:27:0
+Finish preheat at 9:27:30
+CoffeeRule met at time:14:47:30
+Finish coffee at 14:49:0
+Return:257.5!!!
+======Day 197====================================================================
+OvenRule met at time:8:27:30
+Finish preheat at 8:28:30
+CoffeeRule met at time:13:43:0
+Finish coffee at 13:44:30
+Return:340.75!!!
+======Day 198====================================================================
+OvenRule met at time:8:6:30
+Finish preheat at 8:7:0
+CoffeeRule met at time:13:50:30
+Finish coffee at 13:52:0
+Return:334.75!!!
+======Day 199====================================================================
+OvenRule met at time:8:3:0
+Finish preheat at 8:4:30
+CoffeeRule met at time:13:15:30
+Finish coffee at 13:17:0
+Return:352.0!!!
+[-588.0, -208.0, -114.5, -272.0, -79.25, -161.75, 23.5, -388.0, 14.5, -131.75, -808.0, 21.25, -271.75, 154.75, 214.0, 133.0, 115.0, 193.0, -524.5, 162.25, -489.25, -371.5, 267.25, -280.75, 275.5, 210.25, 285.25, -265.75, -256.75, 217.75, 309.25, -294.25, 233.5, -180.25, 353.5, 269.5, 316.75, -270.25, -343.75, 175.75, 77.5, 334.75, 335.5, 363.25, -875.25, -65.75, 344.5, 268.0, 367.0, 325.75, 352.0, 319.75, -245.5, 361.75, 355.75, 321.25, 345.25, 350.5, 305.5, 310.0, 359.5, 220.75, 321.25, 350.5, -151.0, 329.5, -128.5, 220.75, 277.0, 290.5, 364.75, 260.5, 361.75, 352.0, 322.0, -109.75, 347.5, 346.75, -464.5, 241.0, -107.5, 366.25, 337.0, 211.0, 352.75, 246.25, -150.25, 352.0, 366.25, -118.0, -169.0, -151.75, 305.5, 277.0, -125.5, 352.0, 358.75, 320.5, 367.0, 365.5, 337.0, 352.0, 361.0, 247.75, 360.25, 282.25, 337.75, 367.0, 365.5, 367.0, 367.0, 330.25, 336.25, 345.25, 361.0, 238.0, 323.5, 347.5, 247.0, 365.5, 362.5, 367.0, 367.0, 286.0, 334.75, -448.0, 367.0, 352.0, 366.25, 364.0, -328.75, 366.25, 271.75, 367.0, 361.0, 365.5, 323.5, 367.0, 238.75, 343.75, 367.0, 366.25, 367.0, 352.0, 352.0, 230.5, 365.5, 358.75, 367.0, 362.5, 332.5, 319.0, 366.25, 352.0, 367.0, 359.5, 337.0, 352.0, 365.5, 336.25, 337.75, 349.0, 341.5, 365.5, 334.75, 363.25, 367.0, 352.0, 351.25, 307.75, 366.25, 352.0, 367.0, 367.0, 364.75, 367.0, 317.5, 365.5, 365.5, 352.0, 351.25, 295.0, 319.75, 367.0, 366.25, 331.75, 352.0, 307.0, 364.75, 277.0, 367.0, 355.75, 304.0, 367.0, 89.5, 352.0, 257.5, 340.75, 334.75, 352.0]
